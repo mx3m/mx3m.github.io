@@ -192,7 +192,7 @@ nav .column-4 {
 }
 
 nav .column-4 a {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: #4A4C57;
   text-decoration: none; 
@@ -216,9 +216,9 @@ nav .column-4 a:hover {
 }
 
 #main {
-  background-color: white;
+  background-color: #fff;
   margin-top: 70px;
-  padding-top: 25px;
+  padding-top: 30px;
   width: 100%;
 }
 
@@ -569,7 +569,8 @@ footer small {
   } 
 
   #main {
-    padding-top: 75px;
+      margin-top: 40px;
+      padding-top: 30px;
   }
 
   #main h1 {
@@ -602,28 +603,6 @@ footer small {
     padding: 30px;
   }
 
-  footer small {
-    display: none;
-  }
-
-  #social {
-    float: none;
-    display: flex; 
-    display: box;
-    display: flexbox; 
-    justify-content: space-between;
-    padding-top: 10px;
-  }
-
-  #social li span {
-    font-size: 40px;
-    line-height: auto; 
-    padding-top: 10px;
-  }
-
-  .padding-fix {
-    padding-top: 0;
-  }
 
 }
 
@@ -647,6 +626,11 @@ footer small {
 
   nav .column-4 {
     padding: 20px 0 18px 0;
+  }
+
+  nav .column-4 a {
+    font-size: 14px;
+    text-transform: none;
   }
 
   header .title {
@@ -696,6 +680,26 @@ footer small {
   .profile-pic {
     width: 120px!important;
   }
+
+  footer small {
+    display: none;
+  }
+
+  #social {
+    float: none;
+    display: flex; 
+    display: box;
+    display: flexbox; 
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  #social li span {
+    font-size: 40px;
+    line-height: auto; 
+    padding-top: 10px;
+  }
+
 
 }
 
