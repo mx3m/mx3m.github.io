@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Matmm.me"
+date:   2013-09-28 15:46:59
+categories: work
+excerpt: " the overhaul of my personal website, now powered by Jekyll"
+image: /assets/img/cover-img.jpg
+workURL: http://www.matmm.me
+---
+
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Blog - Mathieu Mayer-Mazzoli</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="content-language" content="en-gb" />
+        <meta name="copyright" content="Copyright Mathieu Mayer-Mazzoli" />
+        <meta name="keywords" content="web design, design, website, development, dubai, user experience, interaction designer"/>
+        <meta name="author" content="https://plus.google.com/u/0/101807629357224549666/" />
+        <meta name="description" content="Interaction Designer. I make things for the Web.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+        <script type="text/javascript" src="//use.typekit.net/xbh2rek.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBFXLo8K0M-yaXlwj04xSm5bsaZImTXbA4&sensor=false"></script>
+    </head>
+
+    <body data-current-page="blog"> 
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div id="wrapper">
+        <header>
+            <h1 class="title"><a href="/">Mathieu Mayer-Mazzoli</a></h1>
+            <p class="follow"><a target="_blank" href="http://twitter.com/mx3m">Follow-me on Twitter</a></p>
+        </header>
+
+
+        <nav id="navigation" class="clearfix tk-proxima-nova">
+            <div class="column-4">
+                <a href="/index.html" data-page-id="index"><span class="icon-briefcase"></span>Portfolio</a>
+            </div>
+            <div class="column-4">
+                <a href="/blog.html" data-page-id="blog"><span class="icon-quill"></span>Blog</a>
+            </div>
+            <div class="column-4">
+                <a href="/about.html" data-page-id="about"><span class="icon-user"></span>About</a>
+            </div>
+            <div class="column-4">
+                <a href="mailto:mathieu.mm@me.com?Subject=Hello%20you" target="_top"><span class="icon-bubble"></span>Contact</a>
+            </div>
+        </nav>
+
+    <div id="main" class="clearfix">
+
+<div class="content-wrap">
+<h1>Secretly scribbling<span class="italic"> to share & learn</span></h1>
+<p>Sometimes, seeing just isn't enough. And as weird as this might sound, I do not write to be read (although, I'm glad you found your way here). I write like I would clear my throat. Just a few lines once in a while to lay down my thoughts on web design, creativity and technologies. When I'm not stalking <a target="_blank" href="http://pincil.co">brilliant minds</a> on <a target="_blank" href="http://twitter.com/mx3m">Twitter</a> of course.</p>
+</div>
+
+<ul id="posts">
+  
+    <li>
+      <span><a href="/2013/08/blogging-to-share.html"><span class="date">12 Aug 2013</span> <span class="dash">&#x02014;</span> Blogging to share & learn<span class="arrow">&rsaquo;</span></a></span>
+    </li>
+  
+</ul>
+
+			</div> <!-- MAIN -->
+
+			<footer class="clearfix">
+				<small>© 2013 - Mathieu Mayer-Mazzoli</small>
+				<ul id="social">
+					<li><a target="_blank" href="http://twitter.com/mx3m"><span class="icon-twitter"></span></a></li>
+					<li><a target="_blank" href="http://dribbble.com/3xM"><span class="icon-dribbble"></span></a></li>
+					<li><a target="_blank" href="http://github.com/m3xm"><span class="icon-github"></span></a></li>
+					<li><a target="_blank" href="http://instagram.com/m3xm"><span class="icon-instagram"></span></a></li>
+				</ul>
+			</footer>
+
+		</div>	<!-- WRAPPER -->
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+
+				// Arrow Toggle and Highlight Posts Li
+				$('#posts li').hover(function() {
+					$(this).find('.arrow').toggle();
+					$(this).find('a, .excerpt').toggleClass('posts-link-current');
+				})
+
+				// Highlight Current Page In Main Navigation
+				var currentPage = $("body").data("current-page");
+				if (currentPage) {
+				    $("a[data-page-id='" + currentPage + "']").addClass("current");
+				}
+				// Open Twitter on a Pop-Up
+				  $('.popup').click(function(event) {
+				    var width  = 575,
+				        height = 400,
+				        left   = ($(window).width()  - width)  / 2,
+				        top    = ($(window).height() - height) / 2,
+				        url    = this.href,
+				        opts   = 'status=1' +
+				                 ',width='  + width  +
+				                 ',height=' + height +
+				                 ',top='    + top    +
+				                 ',left='   + left;
+				    
+				    window.open(url, 'twitter', opts);
+				 
+				    return false;
+				  });
+			});
+		</script>
+	</body>
+</html>

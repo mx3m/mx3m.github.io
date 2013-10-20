@@ -1,0 +1,14 @@
+name: "Mathieu Mayer-Mazzoli"
+description: "UX/UI Designer"
+
+baseurl: /
+url: http://localhost:4000
+
+paginate: 10
+
+markdown: rdiscount
+permalink: :year/:month/:title.html
+pygments: true
+
+include: ['_blog']
+relative_permalinks: false

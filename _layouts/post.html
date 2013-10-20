@@ -1,0 +1,29 @@
+---
+id: index
+---
+
+{% include header.html %}
+
+	{{% if page.image %}}
+		<img src="{{ page.image }}" class="page-image">
+	{{% endif %}}
+
+	<div class="content-wrap">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="page-excerpt">{{ page.excerpt }}</p>
+		{{ content }}
+	</div>
+
+	<ul id="posts">
+		<li class="social-link project-link">
+	  		<a target="_blank" href="{{ page.workURL }}">Digging it! Visit the <strong>Project</strong><span class="arrow">&rsaquo;</span></a>
+		</li>
+		<li class="social-link twitter-link">
+	  		<a href="http://twitter.com/share" class="popup">Share the project on <strong>Twitter</strong><span class="arrow">&rsaquo;</span></a>
+		</li>
+		<li class="social-link download-link">
+	  		<a href="{{ site.baseurl }}">Go back to the <strong>Index</strong><span class="arrow">&rsaquo;</span></a>
+		</li>
+	</ul>
+
+{% include footer.html %}

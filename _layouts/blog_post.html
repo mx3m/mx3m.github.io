@@ -1,0 +1,30 @@
+---
+id: blog
+---
+
+{% include header.html %}
+
+		<div class="content-wrap">
+				<h4 class="page-date">Posted on {{ page.date | date_to_string }}</h4>
+				<h1 class="padding-fix">{{ page.title }}</h1>
+		</div>
+
+	{{% if page.image %}}
+		<img src="{{ page.image }}" class="page-image">
+	{{% endif %}}
+
+	<div class="content-wrap">
+		<h3 class="page-excerpt">{{ page.excerpt }}</h3>
+		{{ content }}
+	</div>
+
+	<ul id="posts">
+		<li class="social-link twitter-link">
+	  		<a href="http://twitter.com/share" class="popup">Share the post on <strong>Twitter</strong><span class="arrow">&rsaquo;</span></a>
+		</li>
+		<li class="social-link download-link">
+	  		<a href="{{ site.baseurl }}blog.html">Go back to the <strong>Posts List</strong><span class="arrow">&rsaquo;</span></a>
+		</li>
+	</ul>
+
+{% include footer.html %}
