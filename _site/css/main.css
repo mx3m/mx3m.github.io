@@ -192,7 +192,7 @@ nav .column-4 {
 }
 
 nav .column-4 a {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #4A4C57;
   text-decoration: none; 
@@ -217,9 +217,8 @@ nav .column-4 a:hover {
 
 #main {
   background-color: #fff;
-  margin-top: 70px;
-  padding-top: 30px;
   width: 100%;
+  padding-top: 95px;
 }
 
 #main h1,
@@ -249,7 +248,7 @@ nav .column-4 a:hover {
 }
 
 .content-wrap {
-  padding: 40px 40px 20px 40px;
+  padding: 45px 40px 20px 40px;
   width: 100%;
 }
 
@@ -314,7 +313,7 @@ nav .column-4 a:hover {
   padding: 0!important;
 }
 
-.italic {
+.thin {
   font-style: normal;
   font-weight: 300;
 }
@@ -355,7 +354,6 @@ nav .column-4 a:hover {
 
 #posts a {
   font-size: 20px;
-  font-weight: 300;
   color: #4A4C57;
   text-decoration: none; 
   line-height: 1.2;
@@ -451,7 +449,7 @@ nav .column-4 a:hover {
   font-size: inherit;
   float: right;
   margin: 0;
-  padding: 0 40px 0 0;
+  padding: 0;
   color: #fff;
   line-height: 1;
 }
@@ -553,7 +551,11 @@ footer small {
   }
 
   nav .column-4 {
-    padding: 30px 0 28px 0;
+    padding: 35px 0 32px 0;
+  }
+
+  nav .column-4 a {
+    font-size: 14px;
   }
 
   header {
@@ -629,7 +631,6 @@ footer small {
   }
 
   nav .column-4 a {
-    font-size: 14px;
     text-transform: none;
   }
 
