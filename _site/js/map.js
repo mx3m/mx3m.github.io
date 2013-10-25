@@ -1,10 +1,9 @@
-var dubai = new google.maps.LatLng(25.080468,55.136921);
+	var dubai = new google.maps.LatLng(25.080468,55.136921);
 	var parliament = new google.maps.LatLng(25.080468,55.136921);
 	var marker;
 	var map;
 
 	function initialize() {
-
 	  var mapOptions = {
 	    zoom: 15,
 	    mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -12,9 +11,9 @@ var dubai = new google.maps.LatLng(25.080468,55.136921);
 	    disableDefaultUI: true,
 	    scrollwheel: false,
 	    zoomControl: true,
-    	zoomControlOptions: {
-      		style: google.maps.ZoomControlStyle.SMALL
-    	}
+	    zoomControlOptions: {
+		    style: google.maps.ZoomControlStyle.SMALL
+			}
 	  };
 
 	  map = new google.maps.Map(document.getElementById('map-canvas'),

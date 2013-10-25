@@ -4,15 +4,16 @@ id: index
 
 {% include header.html %}
 
+	<h1 class="page-title">{{ page.title }}</h1>
+	<h4 class="page-excerpt"><i>{{ page.excerpt }}</i></h4>
+
+</div><!-- container -->
 	{{% if page.image %}}
-		<img src="{{ page.image }}" class="page-image">
+		<center><img src="{{ page.image }}" class="page-image"></center>
 	{{% endif %}}
 
-	<div class="content-wrap">
-		<h1 class="page-title">{{ page.title }}</h1>
-		<p class="page-excerpt">{{ page.excerpt }}</p>
+<div class="container">
 		{{ content }}
-	</div>
 
 	<ul id="posts">
 		<li class="social-link project-link">

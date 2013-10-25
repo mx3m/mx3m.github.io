@@ -21,30 +21,24 @@
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBFXLo8K0M-yaXlwj04xSm5bsaZImTXbA4&sensor=false"></script>
     </head>
 
-    <body{% if page.id %} data-current-page="{{ page.id }}"{% endif %}> 
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+        <body{% if page.id %} data-current-page="{{ page.id }}"{% endif %}> 
+            <!--[if lt IE 7]>
+                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
 
-    <div id="wrapper">
-        <header>
-            <h1 class="title"><a href="{{ site.baseurl }}">Mathieu Mayer-Mazzoli</a></h1>
-            <p class="follow"><a target="_blank" href="http://twitter.com/mx3m">Follow-me on Twitter</a></p>
-        </header>
+            <header>
+                <div class="container">
+                    <h1 class="title"><a href="{{ site.baseurl }}">Mathieu Mayer-Mazzoli</a></h1>
+                     <nav class="navigation">
+                        <ul class="menu">
+                            <li><a href="{{ site.baseurl }}index.html" data-page-id="index">Work</a></li>
+                            <li><a href="{{ site.baseurl }}blog.html" data-page-id="blog">Blog</a></li>
+                            <li><a href="{{ site.baseurl }}about.html" data-page-id="about">About</a></li>
+                            <li><a href="mailto:mathieu.mm@me.com?Subject=Hello%20you" target="_top">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 
-        <nav id="navigation" class="clearfix tk-proxima-nova">
-            <div class="column-4">
-                <a href="{{ site.baseurl }}index.html" data-page-id="index"><span class="icon-briefcase"></span>Portfolio</a>
-            </div>
-            <div class="column-4">
-                <a href="{{ site.baseurl }}blog.html" data-page-id="blog"><span class="icon-quill"></span>Blog</a>
-            </div>
-            <div class="column-4">
-                <a href="{{ site.baseurl }}about.html" data-page-id="about"><span class="icon-user"></span>About</a>
-            </div>
-            <div class="column-4">
-                <a href="mailto:mathieu.mm@me.com?Subject=Hello%20you" target="_top"><span class="icon-bubble"></span>Contact</a>
-            </div>
-        </nav>
-
-    <div id="main" class="clearfix">
+            <main>
+                <div class="container">
