@@ -14,7 +14,7 @@ html, body, #map-canvas { height: 100%; width: 100%; }
 
 body {
   background-color: #F4F5F8;
-  /*font-family: 'Cardo', serif;*/
+  font-family: "proxima-nova",sans-serif;
   font-size: 18px;
   color: #5B5D6A;
 }

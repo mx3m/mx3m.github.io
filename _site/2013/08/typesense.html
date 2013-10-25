@@ -32,7 +32,6 @@
             <p class="follow"><a target="_blank" href="http://twitter.com/mx3m">Follow-me on Twitter</a></p>
         </header>
 
-
         <nav id="navigation" class="clearfix tk-proxima-nova">
             <div class="column-4">
                 <a href="/index.html" data-page-id="index"><span class="icon-briefcase"></span>Portfolio</a>
@@ -101,38 +100,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 		</div>	<!-- WRAPPER -->
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script>
-			$(document).ready(function() {
-
-				// Arrow Toggle and Highlight Posts Li
-				$('#posts li').hover(function() {
-					$(this).find('.arrow').toggle();
-					$(this).find('a, .excerpt').toggleClass('posts-link-current');
-				})
-
-				// Highlight Current Page In Main Navigation
-				var currentPage = $("body").data("current-page");
-				if (currentPage) {
-				    $("a[data-page-id='" + currentPage + "']").addClass("current");
-				}
-				// Open Twitter on a Pop-Up
-				  $('.popup').click(function(event) {
-				    var width  = 575,
-				        height = 400,
-				        left   = ($(window).width()  - width)  / 2,
-				        top    = ($(window).height() - height) / 2,
-				        url    = this.href,
-				        opts   = 'status=1' +
-				                 ',width='  + width  +
-				                 ',height=' + height +
-				                 ',top='    + top    +
-				                 ',left='   + left;
-				    
-				    window.open(url, 'twitter', opts);
-				 
-				    return false;
-				  });
-			});
-		</script>
+		<script src="/js/main.js"></script>
+		<script src="/js/map.js"></script>
 	</body>
 </html>

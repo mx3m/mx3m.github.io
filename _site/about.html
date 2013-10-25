@@ -32,7 +32,6 @@
             <p class="follow"><a target="_blank" href="http://twitter.com/mx3m">Follow-me on Twitter</a></p>
         </header>
 
-
         <nav id="navigation" class="clearfix tk-proxima-nova">
             <div class="column-4">
                 <a href="/index.html" data-page-id="index"><span class="icon-briefcase"></span>Portfolio</a>
@@ -87,49 +86,6 @@
 	</li>
 </ul>
 
-<script>
-	var dubai = new google.maps.LatLng(25.080468,55.136921);
-	var parliament = new google.maps.LatLng(25.080468,55.136921);
-	var marker;
-	var map;
-
-	function initialize() {
-	  var mapOptions = {
-	    zoom: 15,
-	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-	    center: dubai,
-	    disableDefaultUI: true,
-	    scrollwheel: false,
-	    zoomControl: true,
-	    zoomControlOptions: {
-		    style: google.maps.ZoomControlStyle.SMALL
-			}
-	  };
-
-	  map = new google.maps.Map(document.getElementById('map-canvas'),
-	          mapOptions);
-
-	  marker = new google.maps.Marker({
-	    map:map,
-	    draggable:true,
-	    animation: google.maps.Animation.DROP,
-	    position: parliament
-	  });
-	  google.maps.event.addListener(marker, 'click', toggleBounce);
-	}
-
-	function toggleBounce() {
-
-	  if (marker.getAnimation() != null) {
-	    marker.setAnimation(null);
-	  } else {
-	    marker.setAnimation(google.maps.Animation.BOUNCE);
-	  }
-	}
-
-	google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
 			</div> <!-- MAIN -->
 
 			<footer class="clearfix">
@@ -145,38 +101,7 @@
 		</div>	<!-- WRAPPER -->
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script>
-			$(document).ready(function() {
-
-				// Arrow Toggle and Highlight Posts Li
-				$('#posts li').hover(function() {
-					$(this).find('.arrow').toggle();
-					$(this).find('a, .excerpt').toggleClass('posts-link-current');
-				})
-
-				// Highlight Current Page In Main Navigation
-				var currentPage = $("body").data("current-page");
-				if (currentPage) {
-				    $("a[data-page-id='" + currentPage + "']").addClass("current");
-				}
-				// Open Twitter on a Pop-Up
-				  $('.popup').click(function(event) {
-				    var width  = 575,
-				        height = 400,
-				        left   = ($(window).width()  - width)  / 2,
-				        top    = ($(window).height() - height) / 2,
-				        url    = this.href,
-				        opts   = 'status=1' +
-				                 ',width='  + width  +
-				                 ',height=' + height +
-				                 ',top='    + top    +
-				                 ',left='   + left;
-				    
-				    window.open(url, 'twitter', opts);
-				 
-				    return false;
-				  });
-			});
-		</script>
+		<script src="/js/main.js"></script>
+		<script src="/js/map.js"></script>
 	</body>
 </html>
