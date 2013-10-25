@@ -304,6 +304,16 @@ footer small {
     font-size: 19px;
   }
 
+  header {
+    padding: 60px 0 40px 0;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    padding: 50px 0;
+    margin-top: 80px;
+  }
+
   #posts .arrow {
     float: none;
   }
