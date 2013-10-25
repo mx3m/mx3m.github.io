@@ -110,6 +110,14 @@ nav.navigation ul li {
   padding-right: 20px;
 }
 
+nav.navigation ul li a {
+  color: #ABADB9;
+}
+
+nav.navigation ul li a:hover {
+  color: #65BBE2;
+}
+
 nav.navigation ul li:last-child {
   padding-right: 0;
 }
