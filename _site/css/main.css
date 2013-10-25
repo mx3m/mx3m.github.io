@@ -160,17 +160,6 @@ main hr {
   border-top: 1px solid #eee;
 }
 
-#posts li:nth-child(odd) {
-}
-
-#posts li:hover, #posts li:nth-child(odd):hover {
-
-}
-
-#posts li:active, #posts li:nth-child(odd):active {
-
-}
-
 #posts li a {
   text-decoration: none; 
   border: none!important;
