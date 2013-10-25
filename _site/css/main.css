@@ -53,7 +53,6 @@ table {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  padding-right: 5px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -109,6 +108,11 @@ nav.navigation ul {
 nav.navigation ul li {
   display: inline-block; 
   padding-right: 20px;
+}
+
+.current {
+  font-weight: 700;
+  text-decoration: none;
 }
 
 main {
@@ -303,6 +307,10 @@ footer small {
 
 @media only screen and (max-width : 919px) {
 
+  body {
+    font-size: 19px;
+  }
+
   #posts .arrow {
     float: none;
   }
@@ -311,6 +319,7 @@ footer small {
     padding-left: 0;
   }
 
-
 }
+
+
 
