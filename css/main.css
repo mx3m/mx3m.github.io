@@ -128,7 +128,6 @@ main img {
   width: 100%;
   max-width: 1080px;
   margin: 30px auto;
-  background: url('../assets/img/loading.gif') center no-repeat;
 }
 
 main hr {

@@ -4,7 +4,7 @@ title:  "Pincil.co"
 date:   2013-09-19 15:10:59
 categories: work
 excerpt: " a curated list of talented designers on Twitter & Dribbble"
-image: /assets/img/pincil-img.png
+image: /assets/img/pincil-img.jpg
 workURL: http://pincil.co
 ---
 
