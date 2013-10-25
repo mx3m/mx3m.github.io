@@ -163,7 +163,7 @@ main hr {
 #posts li a {
   text-decoration: none; 
   border: none!important;
-  padding: 40px 0;
+  padding: 30px 0;
   transition: all .2s linear;
   -webkit-transition: all .2s linear;
 }
@@ -326,10 +326,12 @@ footer small {
 
   header {
     padding: 50px 0 30px 0;
+    margin-bottom: 50px;
   }
 
   footer {
     padding: 40px 0;
+    margin-top: 60px;
   }
 
   h1 {
