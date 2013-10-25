@@ -45,7 +45,7 @@ table {
   font-style: normal;
 }
 
-.icon-quill, .icon-user, .icon-twitter, .icon-github, .icon-dribbble, .icon-instagram, .icon-briefcase, .icon-bubble {
+.icon-twitter, .icon-github, .icon-dribbble, .icon-instagram {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -56,12 +56,7 @@ table {
   padding-right: 5px;
   -webkit-font-smoothing: antialiased;
 }
-.icon-quill:before {
-  content: "\e000";
-}
-.icon-user:before {
-  content: "\e001";
-}
+
 .icon-twitter:before {
   content: "\e002";
 }
@@ -73,12 +68,6 @@ table {
 }
 .icon-instagram:before {
   content: "\e005";
-}
-.icon-briefcase:before {
-  content: "\e006";
-}
-.icon-bubble:before {
-  content: "\e007";
 }
 
 
@@ -112,9 +101,6 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-nav.navigation {
-}
-
 nav.navigation ul {
   list-style: none;
   font-size: 1em;
@@ -142,6 +128,7 @@ main img {
   width: 100%;
   max-width: 1080px;
   margin: 30px auto;
+  background: url('../assets/img/loading.gif') center no-repeat;
 }
 
 main hr {

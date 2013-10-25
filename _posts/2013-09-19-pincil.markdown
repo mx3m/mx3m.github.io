@@ -12,6 +12,4 @@ When I decided to take this new career path and jumped into web design back in J
 
 I then created [Pincil.co](http://www.pincil.co), a list of designers worth following on Dribbble and Twitter. With the help of my friend [Julien Rousseau](http://www.julienrousseau.com) who came up with a nice little script, I put together a simple one-page website where people can discover a bunch of talented designers and get an easy access to their Dribbble and Twitter accounts.
 
-<hr>
-
 **Pincil.co got 5000 unique visitors after a week**. I later on created a [repo](https://github.com/m3xm/Pincil-Flipping-Cards) to show how the flipping tiles were created. Feedbacks have been great so far and I intend to add more designers in the future.
