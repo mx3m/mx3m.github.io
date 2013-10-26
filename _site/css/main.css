@@ -192,10 +192,11 @@ main hr {
 /*
 /*****************************************************************************/
 
-
+.page-excerpt,
 .page-title {
   margin: 0!important;
 }
+
 
 .page-excerpt:first-letter {
   text-transform: uppercase;
