@@ -4,9 +4,14 @@ title:  "Matmm.me"
 date:   2013-09-28 15:46:59
 categories: work
 excerpt: " the overhaul of my personal website, now powered by Jekyll"
-image: /assets/img/cover-img.jpg
+image: /assets/img/matmm-img.jpg
 workURL: http://www.matmm.me
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+I'm a nightmare client. My own nightmare client. As soon as it comes to make a website for myself: **I love nothing**. I design, iterate, sleep on it and delete for ever. Repeat a million times. 
+
+That said, I really needed to have my own place where I can showcase my projects and client work. So I tried to come up with a design that is so simple, so minimalist that I have no more reason to dislike it. 
+
+Almost no colors. No trendy effects or patterns whatsoever. So I placed *type* at the center of this website. [Meta Serif Web Pro](https://typekit.com/fonts/ff-meta-serif-web-pro">FF Meta Serif Web Pro) is one of my favorite modern serif ever and I couldn't resist to use it here. 
+
+Later in that process, I wondered: should I use a CMS? Building a simple portfolio on top of Wordpress feels like killing a mosquito with napalm really. Effective but really disproportionate. That's how I came across [Jekyll](http://www.jekyllrb.com). Jekyll really blew my mind. That was exactly what I was looking for. Jekyll basically generates a static website from a bunch of templates you create. I then push my changes to [Github](www.github.com) and get the result in a second. 

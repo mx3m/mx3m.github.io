@@ -4,24 +4,14 @@ title:  "Typesense"
 date:   2013-08-12 16:48:45
 categories: work
 excerpt: " a single-column & responsive Wordpress theme"
-image: /assets/img/tabinikki-img.png
+image: /assets/img/typesense-img.png
 workURL: http://matmm.me/typesense
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Long before [Ghost](http://www.ghost.org) came to life, I've always thought that Wordpress, despite being a great CMS, was a little bit too complicated for most of the people. Many themes out there offer more than you can expect: columns, plugins, widgets, 3 or 4 differents layouts for posts/pages, and so on. 
 
-Jekyll also offers powerful support for code snippets:
+What happened to those simple, content-focused themes that used to be quite popular a few years back? Sometimes, you may not want to spend your whole week-end setting up your new Wordpress blog. You just want to install a simple template, customize a picture and start writing. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<hr>
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+With that in mind, I created **Typesense**, a simple responsive theme for bloggers. This theme is available for download on [Github](https://github.com/m3xm/Typesense).
