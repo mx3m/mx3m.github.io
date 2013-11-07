@@ -4,7 +4,7 @@ title:  "Matmm.me"
 date:   2013-09-28 15:46:59
 categories: work
 excerpt: " the overhaul of my personal website, now powered by Jekyll"
-image: /assets/img/matmm-img.jpg
+image: /assets/img/matmm-img.png
 workURL: http://www.matmm.me
 ---
 

@@ -3,7 +3,7 @@ layout: blog_post
 title:  "Blogging to share & learn"
 date:   2013-08-12 16:48:45
 categories: blog
-image: /assets/img/cover-img.jpg
+image: /assets/img/blog_post1-img.jpg
 excerpt: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risu. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus."
 ---
 
