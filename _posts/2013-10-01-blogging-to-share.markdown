@@ -4,15 +4,19 @@ title:  "Blogging to share & learn"
 date:   2013-08-12 16:48:45
 categories: blog
 image: /assets/img/blog_post1-img.jpg
-excerpt: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risu. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus."
+excerpt: "I'm not a writer. English is not even my native language so what the heck am I doing here? Well, in my quest to become a web-designer, I noticed that the more I could talk about it, the more links, tips, tricks I could share, the closer I was getting to my goal. Writing helps at so many different levels. It really does."
 ---
 
-Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Etiam porta sem malesuada magna mollis euismod.
+## Writing helps me to process learnings
+That's common sense. Writing helps us to process whatever we're learning. That's why (you and) I had to copy everything that teachers were reading us out between 6 and 18 years old. Well, at 27 years old, I hope this trick still works fine.
 
-## Sharing is caring
+## Writing helps me to focus
+Writing is so hard. I need to think a lot about what I want to say, and how I can say it in a logical way. Writing is a pure design process: form and substance. And concentration is key. Because if you stop being focused ten seconds, you are losing breadcrumbs, and you then have to do it again. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.
+## Writing helps me to write (duh!)
+Well, here's something more about me: I don't use *Lorem Ipsum* for anything else than a dummy blog post in my designs. I design with content. Designing placeholders is not my thing at all! And you know how it is. Clients or partners don't always work their content on time. They want to see how it looks first, and once they finally feel it's real, they give you something to work with. I don't blame them. We all have billions things to do everydays. 
 
-## Learning because I want to get better
+My solution is to write content anyways! It won't necessarily be the tone they want but whatever; at least, my design are ready for real words.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.
+So here I go. Let's see where all this carry me. 
+
