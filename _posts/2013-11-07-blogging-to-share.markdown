@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title:  "Blogging to share & learn"
-date:   2013-08-12 16:48:45
+date:   2013-11-07 16:48:45
 categories: blog
 image: /assets/img/blog_post1-img.jpg
 excerpt: "I'm not a writer. English is not even my native language so what the heck am I doing here? Well, in my quest to become a web-designer, I noticed that the more I could talk about it, the more links, tips, tricks I could share, the closer I was getting to my goal. Writing helps at so many different levels. It really does."

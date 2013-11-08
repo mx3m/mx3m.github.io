@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Matmm.me"
-date:   2013-09-28 15:46:59
+date:   2013-10-24 15:46:59
 categories: work
 excerpt: " the overhaul of my personal website, now powered by Jekyll"
 image: /assets/img/matmm-img.png
