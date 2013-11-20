@@ -374,6 +374,10 @@ footer small {
     padding-top: 20px;
   }
 
+  #map-canvas {
+    min-height: 250px;
+  }
+
 }
 
 
