@@ -7,7 +7,6 @@ image: /assets/img/blog_post2-img.jpg
 excerpt: "Lately, people around me started asking what do I do for a living. And truth is, I don't know what to answer. "
 ---
 
-Lately, people around me started asking what do I do for a living. And truth is, I don't know what to answer. 
 
 Answering to that question is not easy. It's not only about the title per se. It's just that I'm not the typical graphic artist who evolved into a brilliant solving problem designer. How my young career started is more complicated than that.
 
