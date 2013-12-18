@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title:  "I'm not a Designer"
+title:  "I'm not a designer"
 date:   2013-12-19 01:48:45
 categories: blog
 image: /assets/img/blog_post2-img.jpg
@@ -38,5 +38,5 @@ The real deal is client work. Real client work. People who come to you with a ch
 
 This is what I'm currently working on. Cause I have clients. Happy clients it seems. But still, I just cannot be that self-proclaimed "designer" and expect people to take my word for it. So what does it take? 
 
-My two cents: it takes result. And it's just too early for me to say it worked or not. I don't worry. This time will come. 
+My two cents: it takes result. And it's just too early for me to say it worked or not. But it'll come. Until then, well, I'm not a designer. 
 
