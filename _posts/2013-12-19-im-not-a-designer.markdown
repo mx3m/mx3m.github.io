@@ -4,9 +4,8 @@ title:  "I'm not a designer"
 date:   2013-12-19 01:48:45
 categories: blog
 image: /assets/img/blog_post2-img.jpg
-excerpt: "When you grow up and start working, people ask you what you do for a living. And truth is, I don't know what to answer. "
+excerpt: "Lately, when people ask me what I do for a living, I don't know what to answer."
 ---
-
 
 Answering to that question is not easy. It's not only about the title per se. It's just that I'm not the typical graphic artist who evolved into a brilliant solving problem **designer** all the sudden. How my (young) career started is more complicated than that.
 
