@@ -8,7 +8,7 @@ image: /assets/img/qordoba-img.png
 workURL: http://dribbble.com/m3xm/projects/178815-Qordoba
 ---
 
-I've had the pleasure to work with **Qordoba**, one of the fastest growing start-up in the Middle East. They introduce themselves better than I could do: 
+I had the pleasure to work with **Qordoba**, one of the fastest growing start-up in the Middle East. They introduce themselves better than I could do: 
 
 <center><h3 style="margin-bottom: 45px; padding: 40px 0; border-top: 1px dotted #ccc; border-bottom: 1px dotted #ccc; color: #666;"><i>Qordoba is a Dubai based <strong>localization, translation and language services</strong> company. Qordoba works with hundreds of leading content creators in <strong>30 countries</strong> to produce high quality documents and materials for its clients. Qordoba's human and web based workflows approach to language services optimizes the delivery of <strong>high quality translation in near-real time environements</strong>! Qordoba's web based model ensures that <strong>the right person works on the right job</strong>.</i></h3></center>
 
