@@ -15,13 +15,13 @@ html, body, #map-canvas { height: 100%; width: 100%; }
 body {
   background-color: #fff;
   font-size: 21px;
-  color: #444;
+  color: #333339;
   font-family: "ff-meta-serif-web-pro",serif;
 }
 
-p { line-height: 1.7; padding-bottom: 20px;}
+p { line-height: 165%; padding-bottom: 20px;}
 
-a         { color: #444; }
+a         { color: #141414; }
 a:hover   { color: #65BBE2; }
 
 i { font-style: italic; font-weight: 400;}
@@ -114,7 +114,7 @@ nav.navigation ul li {
 }
 
 nav.navigation ul li a {
-  color: #ABADB9;
+  color: #8C8FA0;
 }
 
 nav.navigation ul li a:hover {
@@ -138,8 +138,8 @@ main h1,
 main h2, 
 main h3,
 main h4 {
-  margin: 1em 0 0.3em 0;
-  line-height: 1.6;
+  margin: 20px 0 10px 0;
+  line-height: 145%;
   font-weight: 700;
 }
 
@@ -189,6 +189,49 @@ main hr {
   margin-left: 20px;
 }
 
+.highlight {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 10px 25px;
+  background-color: #f9f9f9;
+  font-size: 80%;
+  margin: 50px 0 40px;
+}
+
+.highlight code {
+  width: 100%;
+  max-width: 100%;
+}
+
+.highlight code.html::before {
+  content: "HTML";
+  color: #669FE2;
+}
+
+.highlight code.css::before {
+  content: "CSS";
+  color: #EAAFBD;
+}
+
+.highlight code.js::before {
+  content: "JS";
+  color: #AFB0EA;
+}
+
+.highlight code.html::before, 
+.highlight code.css::before,
+.highlight code.js::before {
+  position: absolute;
+  margin-top: -40px;
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
+  padding: 4px 10px; 
+  border-radius: 3px 3px 0 0;
+}
+
 /*****************************************************************************/
 /*
 /* Site - Pages
@@ -214,13 +257,6 @@ main hr {
   margin: 30px auto 50px;
 }
 
-.profile-pic {
-  width: 120px!important;
-  border-radius: 500%;
-  display: block;
-}
-
-
 footer {
   background-color: #f9f9f9;
   border-top: 1px solid #e6e6e6;
@@ -231,7 +267,7 @@ footer {
 footer small {
   display: inline-block;
   font-size: 0.9em;
-  color: #ABADB9;
+  color: #8C8FA0;
 }
 
 #social {
@@ -341,7 +377,7 @@ footer small {
 @media only screen and (max-width : 480px) {
 
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .container {
@@ -363,26 +399,24 @@ footer small {
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 140%;
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 130%;
   }
 
   h3 {
-    font-size: 1.2em;
+    font-size: 120%;
   }
 
   h4 {
-    font-size: 1.1em;
+    font-size: 110%;
   }
 
   #social {
     float: none;
     padding-top: 20px;
-    display: flex; 
-
   }
 
   #map-canvas {
