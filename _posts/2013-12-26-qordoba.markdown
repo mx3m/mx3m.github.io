@@ -16,11 +16,9 @@ The brief was to completely revamp their branding, web presence and online model
 
 </div>
 
+<center><img src="/assets/img/qordoba-img4.png"></center>
+<br/>
 <center><img src="/assets/img/qordoba-img2.png"></center>
-
-<div class="container">
-
-The website will be live early **January 2014**. Will make sure to update this page accordingly!
 
 
 
