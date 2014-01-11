@@ -14,7 +14,7 @@ I had the pleasure to work with **Qordoba**, one of the fastest growing start-up
 
 The brief was to completely revamp their branding, web presence and online model. Before we started, most of their clients were local/regional ones that were really happy with the service but still, the company wasn't reaching any new potential customers outside the Middle East. Our goal was to make the website trustworthy, comprehensive and come up with an innovative way to order human-powered translations through a simple order form (see above). 
 
-</div>
+</div><!-- container -->
 
 <center><img src="/assets/img/qordoba-img4.png"></center>
 <br/>
