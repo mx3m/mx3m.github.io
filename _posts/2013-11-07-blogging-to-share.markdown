@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title:  "Blogging to share & learn"
+title:  "Blogging To Share & Learn"
 date:   2013-11-07 16:48:45
 categories: blog
 image: /assets/img/blog_post1-img.jpg

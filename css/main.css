@@ -15,7 +15,7 @@ html, body, #map-canvas { height: 100%; width: 100%; }
 body {
   background-color: #fff;
   font-size: 21px;
-  color: #333339;
+  color: #333;
   font-family: "ff-meta-serif-web-pro",serif;
 }
 
@@ -25,6 +25,17 @@ a         { color: #141414; }
 a:hover   { color: #65BBE2; }
 
 i { font-style: italic; font-weight: 400;}
+
+blockquote {
+  max-width: 1040px; 
+  margin: 0 auto 20px; 
+  padding: 10px 20px; 
+  text-align: center;
+  font-size: 125%;
+  font-style: italic; 
+  line-height: 145%;
+  font-weight: 400;
+}
 
 img { width: 100%; max-width: 100%;}
 
@@ -239,11 +250,15 @@ main hr {
 /*****************************************************************************/
 
 .page-title {
-  margin: 0!important;
+  margin: 0 0 20px!important;
 }
 
 .page-excerpt {
-  margin: 0 0 20px!important;
+  margin: 0 0 40px!important;
+}
+
+.page-date {
+  color: #8C8FA0;
 }
 
 .page-excerpt:first-letter {
@@ -337,92 +352,62 @@ footer small {
   background-color: #333;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+/*****************************************************************************/
+/*
+/* Media Queries
+/*
+/*****************************************************************************/
 
 
 @media only screen and (max-width : 919px) {
 
-  body {
-    font-size: 19px;
-  }
+  body 
+  {font-size: 19px;}
 
-  header {
-    padding: 60px 0 40px 0;
-    margin-bottom: 60px;
-  }
+  header 
+  {padding: 60px 0 40px 0; margin-bottom: 60px;}
 
-  footer {
-    padding: 50px 0;
-    margin-top: 80px;
-  }
+  footer 
+  {padding: 50px 0; margin-top: 80px;}
 
-  #posts .arrow {
-    float: none;
-  }
+  #posts .arrow 
+  {float: none;}
 
-  #posts li a:hover {
-    padding-left: 0;
-  }
+  #posts li a:hover 
+  {padding-left: 0;}
 
-  #social {
-    float: right;
-  }
+  #social 
+  {float: right;}
 
 }
 
 @media only screen and (max-width : 480px) {
 
-  body {
-    font-size: 16px;
-  }
+  body                  
+  {font-size: 16px;}
 
-  .container {
-    padding: 0 20px;
-  }
+  header                
+  {padding: 30px 0 30px 0; margin-bottom: 40px;}
 
-  header {
-    padding: 30px 0 30px 0;
-    margin-bottom: 40px;
-  }
+  nav.navigation ul li  
+  {padding-right: 15px;}
 
-  nav.navigation ul li {
-    padding-right: 15px;
-  }
+  footer                
+  {padding: 40px 0; margin-top: 60px;}
 
-  footer {
-    padding: 40px 0;
-    margin-top: 60px;
-  }
+  h1 {font-size: 140%;}
+  h2 {font-size: 130%;}
+  h3 {font-size: 120%;}
+  h4 {font-size: 110%;}
 
-  h1 {
-    font-size: 140%;
-  }
+  #social 
+  {float: none; padding-top: 20px;}
 
-  h2 {
-    font-size: 130%;
-  }
+  #map-canvas 
+  {min-height: 250px;}
 
-  h3 {
-    font-size: 120%;
-  }
-
-  h4 {
-    font-size: 110%;
-  }
-
-  #social {
-    float: none;
-    padding-top: 20px;
-  }
-
-  #map-canvas {
-    min-height: 250px;
-  }
-
+  .container 
+  {padding: 0 20px;}
 }
 
 

@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title:  "I'm not a designer"
+title:  "I'm Not A Designer"
 date:   2013-12-19 01:48:45
 categories: blog
 image: /assets/img/blog_post2-img.jpg
