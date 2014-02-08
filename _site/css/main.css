@@ -155,9 +155,9 @@ main h4 {
 }
 
 main img {
-  width: 100%;
+  width: 90%;
   max-width: 1080px;
-  margin: 30px auto;
+  margin: 0 auto 20px;
 }
 
 main hr {
@@ -168,14 +168,35 @@ main hr {
   background: url('../assets/img/hr.png') center no-repeat;
 }
 
+main ul {
+  padding: 0 0 0 40px; 
+  list-style-type: circle;
+}
+
+main ul li {
+  margin-bottom: 15px;
+}
+
+main .descr {
+  font-size: 100%;
+  margin-bottom: 45px; 
+  padding: 40px 0; 
+  border-top: 1px dotted #eee; 
+  border-bottom: 1px dotted #eee; 
+  color: #666;
+  line-height: 1.6;
+}
+
 #posts {
   margin: 40px 0 0 0;
+  padding: 0;
 }
 
 #posts li {
   list-style: none;
-  padding: 30px 5px; 
+  padding: 35px 5px; 
   border-bottom: 1px solid #eee;
+  margin: 0;
 }
 
 #posts li:first-child {
@@ -250,11 +271,13 @@ main hr {
 /*****************************************************************************/
 
 .page-title {
-  margin: 0 0 20px!important;
+  margin: 0 0 10px!important;
 }
 
 .page-excerpt {
   margin: 0 0 40px!important;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .page-date {
@@ -367,6 +390,9 @@ footer small {
   header 
   {padding: 60px 0 40px 0; margin-bottom: 60px;}
 
+  #posts 
+  {margin: 30px 0 0 0;}
+
   footer 
   {padding: 50px 0; margin-top: 80px;}
 
@@ -399,6 +425,9 @@ footer small {
   h2 {font-size: 130%;}
   h3 {font-size: 120%;}
   h4 {font-size: 110%;}
+
+  #posts 
+  {margin: 20px 0 0 0;}
 
   #social 
   {float: none; padding-top: 20px;}
