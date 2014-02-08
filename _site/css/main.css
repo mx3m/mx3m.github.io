@@ -188,7 +188,7 @@ main .descr {
 }
 
 #posts {
-  margin: 40px 0 0 0;
+  margin: 60px 0 0 0;
   padding: 0;
 }
 
@@ -282,6 +282,10 @@ main .descr {
 
 .page-date {
   color: #8C8FA0;
+}
+
+.page-image {
+  margin-bottom: 40px;
 }
 
 .page-excerpt:first-letter {
@@ -391,7 +395,7 @@ footer small {
   {padding: 60px 0 40px 0; margin-bottom: 60px;}
 
   #posts 
-  {margin: 30px 0 0 0;}
+  {margin: 50px 0 0 0;}
 
   footer 
   {padding: 50px 0; margin-top: 80px;}
@@ -427,7 +431,7 @@ footer small {
   h4 {font-size: 110%;}
 
   #posts 
-  {margin: 20px 0 0 0;}
+  {margin: 30px 0 0 0;}
 
   #social 
   {float: none; padding-top: 20px;}
