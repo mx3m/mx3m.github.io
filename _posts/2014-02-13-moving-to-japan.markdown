@@ -3,7 +3,7 @@ layout: blog_post
 title:  "I'm moving to Japan"
 date:   2014-02-13 02:37:45
 categories: blog
-excerpt: "After 2 years in Dubai, I got the opportunity to go and work for an awesome design studio in central Tokyo called [AQ Works](www.aqworks.com). "I'm thrilled" would be an understatement.
+excerpt: "After 2 years in Dubai, I got the opportunity to go and work for an awesome design studio in central Tokyo called [AQ Works](www.aqworks.com). "*I'm thrilled*" would be an understatement."
 ---
 
 Time to pack up. Time for me to leave Dubai. Living here has been a strange experience. Culture and work wise, it's been a shock. I've been bored, excited, happy, angry, frustrated, bored again. 
