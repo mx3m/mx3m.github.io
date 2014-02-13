@@ -17,6 +17,7 @@ body {
   font-size: 21px;
   color: #333;
   font-family: "ff-meta-serif-web-pro",serif;
+  text-rendering: optimizeLegibility;
 }
 
 p { line-height: 165%; padding-bottom: 20px;}
