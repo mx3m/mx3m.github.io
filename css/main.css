@@ -535,7 +535,7 @@ footer small {
   {padding-right: 15px;}
 
   footer                
-  {padding: 40px 0; margin-top: 60px; text-align: center;}
+  {padding: 0; margin-top: 60px; text-align: center;}
 
   #posts, #posts.single 
   {margin: 20px 0 0 0;}
