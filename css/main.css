@@ -8,6 +8,9 @@
 * {
   margin: 0;
   padding: 0;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
 }
 
 html, body, #map-canvas { height: 100%; width: 100%; }
@@ -21,12 +24,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p { line-height: 165%; padding-bottom: 20px;}
+p {line-height: 1.55; padding-bottom: 20px;}
+h1 {font-size: 160%;}
+h2 {font-size: 140%;}
+h3 {font-size: 130%;}
+h4 {font-size: 120%;}
 
 a         { color: #141414; }
-a:hover   { color: #65BBE2; }
+a:hover   { color: #65BBE2; text-decoration: none; }
 
-i { font-style: italic; font-weight: 400;}
+i {font-style: italic; font-weight: 400;}
 
 blockquote {
   max-width: 1040px; 
@@ -39,13 +46,9 @@ blockquote {
   font-weight: 400;
 }
 
-img { width: 100%; max-width: 100%;}
+img {width: 100%; max-width: 100%;}
 
-table {
-  font-size: inherit;
-}
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+table {font-size: inherit;}
 
 @font-face {
   font-family: 'icomoon';
@@ -69,17 +72,27 @@ table {
   -webkit-font-smoothing: antialiased;
 }
 
-.icon-twitter:before {
-  content: "\e002";
+.icon-twitter:before {content: "\e002";}
+.icon-github:before {content: "\e003";}
+.icon-dribbble:before {content: "\e004";}
+.icon-instagram:before {content: "\e005";}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-.icon-github:before {
-  content: "\e003";
+.clearfix{
+    display: block;
 }
-.icon-dribbble:before {
-  content: "\e004";
+html[xmlns].clearfix{
+    display: block;
 }
-.icon-instagram:before {
-  content: "\e005";
+*.clearfix{
+    height: 1%;
 }
 
 
@@ -100,7 +113,7 @@ header {
   width: 100%;
   background-color: #f9f9f9;
   border-bottom: 1px solid #e6e6e6;
-  padding: 70px 0 50px;
+  padding: 70px 0 35px;
   margin-bottom: 80px;
 }
 
@@ -118,7 +131,7 @@ header h1 a {
 
 nav.navigation ul {
   list-style: none;
-  font-size: 1em;
+  font-size: 110%;
 }
 
 nav.navigation ul li {
@@ -128,6 +141,7 @@ nav.navigation ul li {
 
 nav.navigation ul li a {
   color: #8C8FA0;
+  text-decoration: none;
 }
 
 nav.navigation ul li a:hover {
@@ -139,12 +153,12 @@ nav.navigation ul li:last-child {
 }
 
 .current {
-  font-weight: 700;
-  text-decoration: none;
+  border-bottom: 2px solid #BDC0D1;
 }
 
 main {
   width: 100%;
+  max-width: 1440px;
 }
 
 main h1,
@@ -156,10 +170,92 @@ main h4 {
   font-weight: 700;
 }
 
-main img {
-  width: 90%;
+main img.content-img {
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto 30px;
+}
+
+main figure.img-wrap {
+  position: relative;
+  width: 100%;
+  margin: 20px auto 40px;
+  font-size: 80%;
+}
+
+main figure.img-wrap.float {
+  position: relative;
+  max-width: 550px;
+}
+
+main figure.img-wrap.floatLeft {
+  margin-top: -5px;
+  margin-left: -29.5%;
+  margin-right: 35px;
+  margin-bottom: 15px!important;
+  float: left;
+}
+
+main figure.img-wrap.semi {
   max-width: 1080px;
-  margin: 0 auto 20px;
+}
+
+main figure.img-wrap img {
+  display: block;
+  width: 100%;
+}
+
+main figure.img-wrap figcaption {
+  font-family: 'futura-pt', sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+main figure.img-wrap.semi figcaption {
+  text-align: left;
+  margin: 0 45% 0 4%;
+}
+
+main figure.img-wrap.floatLeft figcaption {
+  text-align: left;
+  margin: 0 5%;
+}
+
+main figure.img-wrap.full figcaption {
+  text-align: right;
+  margin: 0 4% 0 50%;
+}
+
+main figure figcaption h4 {
+  margin: 0;
+}
+
+main figure.img-wrap::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 75%;
+  background-image: -o-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.50) 100%);
+  background-image: -moz-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.50) 100%);
+  background-image: -webkit-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.50) 100%);
+  background-image: -ms-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.50) 100%);
+  background-image: linear-gradient(-180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.50) 100%);
+}
+
+main figure.img-wrap.semi::after {
+  top: 65%;
+}
+
+main figure.img-wrap.float::after {
+  top: 55%;
 }
 
 main hr {
@@ -195,7 +291,7 @@ main .descr {
 }
 
 #posts.single {
-  margin: 60px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 #posts li {
@@ -281,7 +377,9 @@ main .descr {
 }
 
 .page-excerpt {
-  margin: 0 0 40px!important;
+  margin-bottom: 10px!important;
+  font-size: 110%;
+  line-height: 1.5;
   font-style: italic;
   font-weight: normal;
 }
@@ -290,8 +388,8 @@ main .descr {
   color: #8C8FA0;
 }
 
-.page-image {
-  margin-bottom: 40px;
+.page-img {
+  margin: 0 auto 40px;
 }
 
 .page-excerpt:first-letter {
@@ -349,98 +447,101 @@ footer small {
 
 /*****************************************************************************/
 /*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
-
-/*****************************************************************************/
-/*
 /* Media Queries
 /*
 /*****************************************************************************/
 
+@media only screen and (max-width: 1098px) {
+
+  main figure.img-wrap.floatLeft 
+  {float: none;}
+
+  main figure.img-wrap.float 
+  {max-width: 100%; margin: 10px auto 25px!important;}
+
+  main figure.img-wrap.float figcaption 
+  {text-align: right;}
+
+}
 
 @media only screen and (max-width : 919px) {
 
   body 
-  {font-size: 19px;}
+  {font-size: 18px;}
 
   header 
-  {padding: 60px 0 40px 0; margin-bottom: 60px;}
+  {padding: 60px 0 35px 0; margin-bottom: 60px;}
+
+  .container 
+  {max-width: 680px;}
 
   #posts 
   {margin: 50px 0 0 0;}
 
   footer 
-  {padding: 50px 0; margin-top: 80px;}
+  {font-size: 90%; padding: 30px 0; margin-top: 80px;}
+
+  footer .container
+  {padding: 20px 40px;}
 
   #posts .arrow 
-  {float: none;}
+  {float: none; margin-left: 10px;}
 
   #posts li a:hover 
   {padding-left: 0;}
 
+  main figure.img-wrap.semi figcaption,
+  main figure.img-wrap.full figcaption
+  {margin: 0 4%;}
+
+}
+
+@media only screen and (max-width : 580px) {
+
+  main figure.img-wrap 
+  {margin: 10px auto 35px; font-size: 80%;}
+
+  main figure.img-wrap::after 
+  {display: none;}
+
+  main figure.img-wrap figcaption {
+  position: relative;
+  text-align: left!important;
+  color: #979CAD;
+  text-shadow: none;
+  padding-top: 10px;
+  }
+
+  main figure.img-wrap.float figcaption 
+  {margin: 0!important;}
+
   #social 
-  {float: right;}
+  {display: none;}
 
 }
 
 @media only screen and (max-width : 480px) {
 
   body                  
-  {font-size: 16px;}
+  {font-size: 14px;}
 
   header                
-  {padding: 30px 0 30px 0; margin-bottom: 40px;}
+  {padding: 30px 0 20px 0; margin-bottom: 40px;}
+
+  header h1
+  {margin-bottom: 10px;}
 
   nav.navigation ul li  
   {padding-right: 15px;}
 
   footer                
-  {padding: 40px 0; margin-top: 60px;}
+  {padding: 40px 0; margin-top: 60px; text-align: center;}
 
-  h1 {font-size: 150%;}
-  h2 {font-size: 140%;}
-  h3 {font-size: 130%;}
-  h4 {font-size: 120%;}
+  #posts, #posts.single 
+  {margin: 20px 0 0 0;}
 
-  #posts 
-  {margin: 30px 0 0 0;}
-
-  #social 
-  {float: none; padding-top: 20px;}
+  #posts li 
+  {padding: 25px 5px;}
 
   #map-canvas 
   {min-height: 250px; margin: 0 auto 20px;}

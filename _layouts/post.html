@@ -5,11 +5,11 @@ id: index
 {% include header.html %}
 
 	<h1 class="page-title">{{ page.title }}</h1>
-	<h4 class="page-excerpt"><i>{{ page.excerpt }}</i></h4>
+	<p class="page-excerpt">{{ page.excerpt }}</p>
+	</div>
+	  <img src="{{ page.image }}" class="page-img content-img">
+	<div class="container">
 
-</div><!-- container -->
-		<center><img src="{{ page.image }}" class="page-image"></center>
-<div class="container">
 		{{ content }}
 
 	<ul id="posts" class="single">
