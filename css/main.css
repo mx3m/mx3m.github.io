@@ -172,7 +172,7 @@ main h4 {
 
 main img.content-img {
   display: block;
-  width: 100%;
+  width: 90%;
   max-width: 920px;
   margin: 0 auto 30px;
 }
