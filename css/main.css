@@ -153,7 +153,7 @@ nav.navigation ul li:last-child {
 }
 
 .current {
-  border-bottom: 2px solid #BDC0D1;
+  border-bottom: 2px solid #BEC4D7;
 }
 
 main {
@@ -364,6 +364,15 @@ main .descr {
   border: 1px solid #e6e6e6;
   padding: 4px 10px; 
   border-radius: 3px 3px 0 0;
+}
+
+span.availability {
+  padding: 0 6px;
+  color: #fff;
+}
+
+span.availability.busy {
+  background: crimson;
 }
 
 /*****************************************************************************/
