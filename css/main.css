@@ -52,16 +52,16 @@ table {font-size: inherit;}
 
 @font-face {
   font-family: 'icomoon';
-  src:url('../fonts/icomoon.eot');
-  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.woff') format('woff'),
-    url('../fonts/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon.svg#icomoon') format('svg');
+  src:url('../fonts/icomoon.eot?-m6p9g1');
+  src:url('../fonts/icomoon.eot?#iefix-m6p9g1') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?-m6p9g1') format('woff'),
+    url('../fonts/icomoon.ttf?-m6p9g1') format('truetype'),
+    url('../fonts/icomoon.svg?-m6p9g1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.icon-twitter, .icon-github, .icon-dribbble, .icon-instagram {
+[class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -69,13 +69,27 @@ table {font-size: inherit;}
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter:before {content: "\e002";}
-.icon-github:before {content: "\e003";}
-.icon-dribbble:before {content: "\e004";}
-.icon-instagram:before {content: "\e005";}
+.icon-instagram:before {
+  content: "\e600";
+}
+.icon-tumblr:before {
+  content: "\e602";
+}
+.icon-twitter:before {
+  content: "\e603";
+}
+.icon-github:before {
+  content: "\e604";
+}
+.icon-dribbble:before {
+  content: "\e605";
+}
 
 .clearfix:after{
     content: ".";
@@ -431,7 +445,7 @@ footer small {
 }
 
 #social li span {
-  font-size: 30px;
+  font-size: 140%;
 }
 
 #social li {
@@ -505,6 +519,13 @@ footer small {
 
 }
 
+@media only screen and (min-width: 581px) {
+
+  #social
+  {float: right;}
+
+}
+
 @media only screen and (max-width : 580px) {
 
   main figure.img-wrap 
@@ -525,7 +546,10 @@ footer small {
   {margin: 0!important;}
 
   #social 
-  {display: none;}
+  {float: none; width: 100%; display: block; margin-bottom: 15px;}
+
+  footer 
+  {text-align: center;}
 
 }
 
@@ -544,7 +568,7 @@ footer small {
   {padding-right: 15px;}
 
   footer                
-  {padding: 0; margin-top: 60px; text-align: center;}
+  {padding: 10px; margin-top: 60px;}
 
   #posts, #posts.single 
   {margin: 20px 0 0 0;}
@@ -557,6 +581,10 @@ footer small {
 
   .container 
   {padding: 0 20px;}
+
+  #social li
+  {padding-left: 16px;}
+
 }
 
 
