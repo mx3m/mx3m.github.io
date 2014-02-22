@@ -381,12 +381,12 @@ main .descr {
 }
 
 span.availability {
-  padding: 0 6px;
+  padding: 0 4px;
   color: #fff;
 }
 
 span.availability.busy {
-  background: crimson;
+  background: rgb(238, 47, 83);
 }
 
 /*****************************************************************************/
