@@ -9,8 +9,8 @@ id: index
 
 <ul id="posts">
   {% for post in site.categories.work %}
-    	<li>
-      		<a href="{{ post.url }}"><strong>{{ post.title }}</strong>, {{ post.excerpt }}<span class="arrow">&rsaquo;</span></a>
-    	</li>
+    <li>
+      <a href="{{ post.url }}"><strong>{{ post.title }}</strong>, {{ post.excerpt }}<span class="arrow">&rsaquo;</span></a>
+    </li>
   {% endfor %}
 </ul>
