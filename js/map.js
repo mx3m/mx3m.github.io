@@ -1,5 +1,5 @@
-	var dubai = new google.maps.LatLng(25.080468,55.136921);
-	var parliament = new google.maps.LatLng(25.080468,55.136921);
+	var tokyo = new google.maps.LatLng(35.660944, 139.720100);
+	var parliament = new google.maps.LatLng(35.660944, 139.720100);
 	var marker;
 	var map;
 
@@ -7,7 +7,7 @@
 	  var mapOptions = {
 	    zoom: 15,
 	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-	    center: dubai,
+	    center: tokyo,
 	    disableDefaultUI: true,
 	    scrollwheel: false,
 	    zoomControl: true,

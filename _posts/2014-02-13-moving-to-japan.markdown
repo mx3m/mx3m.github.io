@@ -3,7 +3,7 @@ layout: blog_post
 title:  "I'm Moving to Japan"
 date:   2014-02-13 13:59:45
 categories: blog
-excerpt: "After 2 years in Dubai, I got the opportunity to go and work for an awesome design studio in central Tokyo called AQ Works. Saying that I'm thrilled would be an understatement."
+excerpt: "After 2 years in Dubai, I got the opportunity to go and work for an awesome design studio in central Tokyo called AQ. Saying that I'm thrilled would be an understatement."
 ---
 
 Time to pack up. Time for me to leave Dubai. Living here has been a strange experience. Culture and work wise, it's been a shock. I've been bored, excited, happy, angry, frustrated, bored again. 
@@ -18,7 +18,7 @@ And now I'm great. I have a purpose. I guess I really had to come here to figure
 
 To be honest, this wasn't expected. Thing is, I didn't want to go back for the sake of being in Japan. I did that in the past and career wise, that definitely wasn't the best move possible. 
 
-The plan was to go back to France and keep doing my stuff from there. Until I reached out to [Jean Snow](http://jeansnow.net), a talented and hyper-active guy I follow on Twitter to ask him for some advices. He replied almost instantly and redirected me to [AQ Works](www.aqworks.com). He said these guys are the best to work with and that they're probably looking for someone like me. 
+The plan was to go back to France and keep doing my stuff from there. Until I reached out to [Jean Snow](http://jeansnow.net), a talented and hyper-active guy I follow on Twitter to ask him for some advices. He replied almost instantly and redirected me to [AQ](www.aqworks.com). He said these guys are the best to work with and that they're probably looking for someone like me. 
 
 It was early jan; I sent my best wishes to them and offered my services. Long story short, we all got slightly excited and decided that I was joining them for a 3 months freelance mission from next March. 
 
