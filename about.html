@@ -4,82 +4,21 @@ title: About
 id: about
 ---
 
-<div class="content-wrap">
-	<h1>Design, code and write<span class="thin"> for a living</span></h1>
-	<p>At 26, I left a nice agency job and started to build my first websites. I've been enjoying every single minute of my time since then. I'm now a 27 years old maker and I finally know what I'd like to be doing for the rest of my life. <em>That feels awesome</em>.</p>
+	<h1>Design, code and write <i>for a living</i></h1>
+	<p>At 26, I quit my safe but not so cosy job I didn't really enjoy doing and started making websites. I've been enjoying every single minute of my time since then. I'm now 28 and feels incredibly privileged (not to say lucky!) to be working with very talented folks at <a href="">AQ</a> for clients such as <a href="http://www.google.com/about/">Google</a>, <a href="http://monoco.jp/index/company">Monoco</a> or <a href="http://www.tokyoartbeat.com/resources/doc/faq">Tokyo Art Beat</a>.</p>
+
 </div>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBFXLo8K0M-yaXlwj04xSm5bsaZImTXbA4&sensor=false"></script>
+	<div id="map-canvas"></div>
+<div class="container">
 
-<div id="map-canvas"></div>
+	<p>I currently live, play and work in <strong>Tokyo</strong>. I sometimes give talks about design and design tools at <a href="https://www.facebook.com/AQRideTheLightning">Ride The Lightning</a>, a pretty cool multilingual, monthly event hosted in our studio in Nishi-Azabu.</p>
+	<p>I didn't go to Art School, which makes me a very peculiar specimen. I have an MBA and talks the business language fluently. I also have an obsession for small details which makes me kind of your worst nightmare if you're not the type of person to align layers or indent code.</p>
 
-<div class="content-wrap">
-	<p>I currently live, play and work in <a href="#">Dubai</a>. I meet new people almost every day. <em>People</em> is my thing. People is the reason I love design. People is what gives a purpose to what I do, what we all do. <strong>I don't buy into trends that don't set people first</strong>. Not content, not users, <strong>people</strong>.</p>
-	<img src="/assets/img/avatar2.jpg" class="profile-pic left">
-	<h2>My perpetual will to discover the world is an incredibly rich & endless source of inspiration.</h2>
-	<p>I wasn't smart enough to go to an Art School. I got an MBA instead. All I have is my obsession for details, a bunch of books, and my admiration for Japanese minimalism. Oh, forgot to mention that I lived in Japan for almost two years. If I can, I'll probably spend my last days overthere.</p>
-	<hr>
-	<p><strong>This website aims to present a topline collection of my work and thoughts</strong>. Powered by <a target="_blank" href="http://jekyllrb.com/">Jekyll</a>, the type is set to <a target="_blank" href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a> and <a target="_blank" href="https://typekit.com/fonts/brandon-grotesque" class="tk-brandon-grotesque">Brandon Grotesque</a>. You have a project for me? I'd be glad to hear from you. You can either <a href="mailto:mathieu.mm@me.com?Subject=Hello%20you">shoot me an email</a> or use one of the below network.</p>
-</div>
+	<p>I work most of the time in Sublime Text or Sketch.</p>
+</div><!-- container -->
+	<img class="content-img" src="/assets/img/mathieu.jpg">
+	<blockquote style="margin-bottom: 40px;">My perpetual will to discover the world is an incredibly rich & endless source of inspiration.</blockquote>
 
-<ul id="posts">
-	<li class="social-link twitter-link">
-  		<a target="_blank" href="http://twitter.com/mx3m"><span class="excerpt">Realise how silly I am on</span> <strong>Twitter</strong><span class="arrow">&rsaquo;</span></a>
-	</li>
-	<li class="social-link dribbble-link">
-  		<a target="_blank" href="http://dribbble.com/3xM"><span class="excerpt">Check out my WIPs on</span> <strong>Dribbble</strong><span class="arrow">&rsaquo;</span></a>
-	</li>
-	<li class="social-link github-link">
-  		<a target="_blank" href="http://github.com/m3xm"><span class="excerpt">Help me to become a better dev on</span></i> <strong>Github</strong><span class="arrow">&rsaquo;</span></a>
-	</li>
-	<li class="social-link linkedin-link">
-  		<a target="_blank" href="http://www.linkedin.com/in/mathieumm"><span class="excerpt">Show me who's the boss on</span> <strong>LinkedIn</strong><span class="arrow">&rsaquo;</span></a>
-	</li>
-	<li class="social-link gplus-link">
-  		<a target="_blank" href="https://plus.google.com/101807629357224549666/posts"><span class="excerpt">Still seeking friends on</span> <strong>Google +</strong><span class="arrow">&rsaquo;</span></a>
-	</li>
-	<li class="social-link instagram-link">
-  		<a target="_blank" href="http://instagram.com/m3xm"><span class="excerpt">Get to know me in color on</span> <strong>Instagram</strong><span class="arrow">&rsaquo;</span></a>
-	</li>
-</ul>
-
-<script>
-	var dubai = new google.maps.LatLng(25.080468,55.136921);
-	var parliament = new google.maps.LatLng(25.080468,55.136921);
-	var marker;
-	var map;
-
-	function initialize() {
-	  var mapOptions = {
-	    zoom: 15,
-	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-	    center: dubai,
-	    disableDefaultUI: true,
-	    scrollwheel: false,
-	    zoomControl: true,
-	    zoomControlOptions: {
-		    style: google.maps.ZoomControlStyle.SMALL
-			}
-	  };
-
-	  map = new google.maps.Map(document.getElementById('map-canvas'),
-	          mapOptions);
-
-	  marker = new google.maps.Marker({
-	    map:map,
-	    draggable:true,
-	    animation: google.maps.Animation.DROP,
-	    position: parliament
-	  });
-	  google.maps.event.addListener(marker, 'click', toggleBounce);
-	}
-
-	function toggleBounce() {
-
-	  if (marker.getAnimation() != null) {
-	    marker.setAnimation(null);
-	  } else {
-	    marker.setAnimation(google.maps.Animation.BOUNCE);
-	  }
-	}
-
-	google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+	<div class="container">
+	<p><strong>This website aims to present a topline collection of my work and thoughts</strong>. Powered by <a target="_blank" href="http://jekyllrb.com/">Jekyll</a>, the type is set to <a target="_blank" href="https://www.google.com/fonts/specimen/Lato">Lato</a>. You have a project for me? I'd be glad to <a href="{{ site.baseurl }}contact.html">hear from you</a>.</p>

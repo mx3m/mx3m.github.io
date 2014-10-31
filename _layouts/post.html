@@ -4,17 +4,15 @@ id: index
 
 {% include header.html %}
 
-	{{% if page.image %}}
-		<img src="{{ page.image }}" class="page-image">
-	{{% endif %}}
-
-	<div class="content-wrap">
-		<h1 class="page-title">{{ page.title }}</h1>
-		<p class="page-excerpt">{{ page.excerpt }}</p>
-		{{ content }}
+	<h1 class="page-title">{{ page.title }}</h1>
+	<p class="page-excerpt">{{ page.excerpt }}</p>
 	</div>
+	  <img src="{{ page.image }}" class="page-img content-img">
+	<div class="container">
 
-	<ul id="posts">
+		{{ content }}
+
+	<ul id="posts" class="single">
 		<li class="social-link project-link">
 	  		<a target="_blank" href="{{ page.workURL }}">Digging it! Visit the <strong>Project</strong><span class="arrow">&rsaquo;</span></a>
 		</li>
