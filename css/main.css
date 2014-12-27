@@ -131,7 +131,7 @@ html[xmlns].clearfix{
 header {
   width: 100%;
   padding-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -160,12 +160,12 @@ header h1 a {
 
 .navigation ul li a {
   padding: 0 10px;
-  color: #8C8FA0;
+  color: #8c8fa0;
   text-decoration: none;
 }
 
 .navigation ul li a:hover {
-  color: #65BBE2;
+  color: #65bbe2;
 }
 
 .navigation ul li:last-child {
@@ -317,42 +317,46 @@ main .descr {
   line-height: 1.6;
 }
 
-#posts {
+.posts {
   margin: 40px 0 0 0;
   padding: 0;
 }
 
-#posts.single {
+.posts.single {
   margin: 50px 0 0 0;
 }
 
-#posts li {
+.posts li {
   list-style: none;
-  padding: 35px 5px;
+  padding: 25px 5px;
   border-bottom: 1px solid #eee;
   margin: 0;
 }
 
-#posts li:first-child {
+.posts li:first-child {
   border-top: 1px solid #eee;
 }
 
-#posts li a {
+.posts li a {
   text-decoration: none;
   border: none!important;
-  padding: 30px 0;
+  padding: 25px 0;
   transition: all .2s linear;
   -webkit-transition: all .2s linear;
 }
 
-#posts li a:hover {
+.posts li a:hover {
   padding-left: 10px;
 }
 
-#posts .arrow {
+.posts .arrow {
   float: right;
   font-size: inherit;
   margin-left: 20px;
+}
+
+.posts .date {
+  color: #8c8fa0;
 }
 
 .highlight {
@@ -459,6 +463,10 @@ footer {
   margin: 5px 20px;
 }
 
+.social li:first-child {
+  margin-left: 0;
+}
+
 .social li a {
   text-decoration: none;
   color: #DCDEE9;
@@ -467,6 +475,7 @@ footer {
 .social li a:hover {
   color: #65BBE2;
 }
+
 
 
 /*****************************************************************************/
@@ -496,7 +505,7 @@ footer {
   .container
   {max-width: 680px;}
 
-  #posts
+  .posts
   {margin: 50px 0 0 0;}
 
   footer
@@ -505,10 +514,10 @@ footer {
   footer .container
   {padding: 20px 40px;}
 
-  #posts .arrow
+  .posts .arrow
   {float: none; margin-left: 10px;}
 
-  #posts li a:hover
+  .posts li a:hover
   {padding-left: 0;}
 
   main figure.img-wrap.semi figcaption,
@@ -551,11 +560,11 @@ footer {
   header h1
   {margin-bottom: 10px;}
 
-  #posts, #posts.single
+  .posts, .posts.single
   {margin: 20px 0 0 0;}
 
-  #posts li
-  {padding: 25px 5px;}
+  .posts li
+  {padding: 20px 5px;}
 
   #map-canvas
   {min-height: 250px;}
