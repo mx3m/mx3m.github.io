@@ -3,7 +3,7 @@ title: Mathieu Mayer
 email: mathieu.mm@me.com
 description: The organic personal webspace of designer Mathieu Mayer
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://m3xm.github.io" # the base hostname & protocol for your site
+url: "http://mx3m.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
