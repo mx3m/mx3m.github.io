@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A few words is an infinity"
-date:   2015-05-24 19:48:52
+date:   2015-05-25 14:00:00
 ---
 
 I'm going to give this a go.
