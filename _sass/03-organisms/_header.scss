@@ -1,0 +1,25 @@
+.site-header {
+  margin-bottom: 4rem;
+  .aside {
+    @include breakpoint(xs) {
+      margin-bottom: 0;
+    }
+  }
+  .main {
+    @extend .flex-container;
+  }
+  .intro {
+    margin-bottom: 1em;
+    color: $color-text-lighter;
+    @include breakpoint(sm) {
+      margin-left: auto;
+      @include order(2);
+    }
+  }
+}
+
+.site-title {
+  @extend %reset-heading;
+  margin-bottom: 5px;
+  font-size: 100%;
+}

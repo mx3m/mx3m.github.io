@@ -1,0 +1,21 @@
+.posts-list {
+  @extend %reset-list;
+  &-item {
+    margin: 2rem 0;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &-item-title {
+    @extend %reset-heading;
+    font-size: 1rem;
+  }
+  &-item-date {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: $color-text-lighter;
+  }
+}

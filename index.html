@@ -1,17 +1,20 @@
 ---
 layout: default
+id: blog
+title: Blog
 ---
 
-<h2>Last posts</h2>
+{% include aside.html %}
 
-<ul class="posts-list">
-  {% for post in site.posts %}
-    <li>
-      <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
-
-      <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
-    </li>
-  {% endfor %}
-</ul>
+<article class="main">
+  <ul class="posts-list">
+    {% for post in site.posts %}
+      <li class="posts-list-item">
+        <time class="posts-list-item-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <h3 class="posts-list-item-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

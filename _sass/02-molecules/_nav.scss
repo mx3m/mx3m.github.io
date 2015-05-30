@@ -1,0 +1,14 @@
+.nav {
+  &-list {
+    @extend %reset-list;
+  }
+  &-list-item {
+    margin: 0;
+  }
+  &-link {
+    display: block;
+    &.current {
+      font-weight: bolder;
+    }
+  }
+}

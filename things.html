@@ -1,0 +1,17 @@
+---
+layout: default
+title: Things
+id: things
+---
+
+{% include aside.html %}
+
+<article class="main">
+  <ul class="posts-list">
+    {% for thing in site.things %}
+      <li class="posts-list-item">
+        <h3 class="posts-list-item-title">{{ thing.title }}</h3>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

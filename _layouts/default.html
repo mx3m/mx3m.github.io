@@ -3,15 +3,21 @@
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.id %}
+          data-current-page="{{ page.id }}"
+        {% endif %}>
 
-    {% include header.html %}
+    <div class="wrapper">
 
-    <main>
-      {{ content }}
-    </main>
+      {% include header.html %}
 
-    {% include footer.html %}
+      <div class="flex-container">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
+
+    </div>
 
   </body>
 

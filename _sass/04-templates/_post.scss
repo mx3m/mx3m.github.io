@@ -1,0 +1,5 @@
+.post-content {
+  @include breakpoint(sm) {
+    max-width: 540px;
+  }
+}

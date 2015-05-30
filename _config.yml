@@ -12,3 +12,8 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: :compressed
+
+# Custom collection
+collections:
+  things:
+    ouput: true

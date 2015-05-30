@@ -1,0 +1,7 @@
+<aside class="aside">
+  {% if page.post %}
+    <time class="muted">{{ page.date | date: "%b %-d, %Y" }}</time>
+  {% else %}
+    <h2 class="page-title">{{ page.title }}</h2>
+  {% endif %}
+</aside>
