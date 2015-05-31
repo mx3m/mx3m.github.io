@@ -17,3 +17,5 @@ sass:
 collections:
   things:
     ouput: true
+  music:
+    output: true
