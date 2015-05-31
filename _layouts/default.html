@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body {% if page.id %}
-          data-current-page="{{ page.id }}"
+          data-current-page="{{ page.id }}" class="{{ page.id }}"
         {% endif %}>
 
     <div class="wrapper">

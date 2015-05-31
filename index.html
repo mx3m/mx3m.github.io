@@ -1,7 +1,7 @@
 ---
 layout: default
-id: blog
-title: Blog
+id: journal
+title: Journal
 ---
 
 {% include aside.html %}
@@ -12,7 +12,7 @@ title: Blog
       <li class="posts-list-item">
         <time class="posts-list-item-date">{{ post.date | date: "%b %-d, %Y" }}</time>
         <h3 class="posts-list-item-title">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="posts-list-item-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
       </li>
     {% endfor %}

@@ -1,7 +1,12 @@
 $base-font-size: 16px;
+$base-line-height: 1.55;
 
-$color-text: #4b4d56;
-$color-text-lighter: #989bab;
-$color-link: #4559cb;
-$color-link-hover: darken($color-link, 10%);
-$color-link-visited: #703fb5;
+$color-text: #4f4b3d;
+$color-text-lighter: lighten($color-text, 30%);
+$color-link: darken($color-text, 20%);
+$color-link-hover: #f5a623;
+$color-link-visited: inherit;
+
+$color-background: #fdf9ea;
+
+$color-bright: #f3f653;

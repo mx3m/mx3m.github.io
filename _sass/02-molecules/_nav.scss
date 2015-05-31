@@ -7,8 +7,13 @@
   }
   &-link {
     display: block;
+    text-decoration: none;
     &.current {
-      font-weight: bolder;
+      &::after {
+        content: '✻';
+        margin-left: 4px;
+        color: $color-text-lighter;
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 .posts-list {
   @extend %reset-list;
   &-item {
-    margin: 2rem 0;
+    margin: 2.2rem 0;
     &:first-child {
       margin-top: 0;
     }
@@ -9,13 +9,16 @@
       margin-bottom: 0;
     }
   }
+  &-item-link {
+    text-decoration: none;
+  }
   &-item-title {
     @extend %reset-heading;
     font-size: 1rem;
   }
   &-item-date {
     display: inline-block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: $color-text-lighter;
   }
 }

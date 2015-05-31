@@ -12,6 +12,7 @@
 
 @import "01-atoms/syntax-highlighting",
         "01-atoms/media",
+        "01-atoms/code",
         "01-atoms/lists",
         "01-atoms/headings",
         "01-atoms/paragraphs";
@@ -39,8 +40,9 @@ body {
   font-size: 100%;
   color: $color-text;
   font-family: 'Arimo', sans-serif;
-  line-height: 1.55;
+  line-height: $base-line-height;
   text-rendering: optimizeLegibility;
+  background-color: $color-background;
 }
 
 hr {
@@ -56,16 +58,13 @@ a {
   &:hover {
     color: $color-link-hover;
   }
-  &:visited {
-    color: $color-link-visited;
-  }
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   @include breakpoint(xs) {
     padding: 1rem;
   }
@@ -79,14 +78,14 @@ a {
 
 .aside {
   @include breakpoint(sm) {
-    width: 28%;
-    min-width: 28%;
+    width: 30%;
+    min-width: 30%;
   }
   margin-bottom: 2rem;
 }
 
 .main {
   @include breakpoint(sm) {
-    width: 72%;
+    width: 70%;
   }
 }

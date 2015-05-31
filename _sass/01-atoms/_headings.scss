@@ -1,6 +1,16 @@
+.site-title {
+  @extend %reset-heading;
+  margin-bottom: 5px;
+  font-size: 100%;
+  a {
+    text-decoration: none;
+  }
+}
+
 .page-title {
   @extend %reset-heading;
   font-size: 1rem;
+  font-weight: normal;
 }
 
 .post-title {

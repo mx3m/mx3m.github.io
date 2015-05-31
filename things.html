@@ -10,7 +10,9 @@ id: things
   <ul class="posts-list">
     {% for thing in site.things %}
       <li class="posts-list-item">
-        <h3 class="posts-list-item-title">{{ thing.title }}</h3>
+        <h3 class="posts-list-item-title">
+          <a class="posts-list-item-link" href="{{ thing.hyperlink }}">{{ thing.title }}</a>
+        </h3>
       </li>
     {% endfor %}
   </ul>
