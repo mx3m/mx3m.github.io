@@ -3,28 +3,32 @@
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    &::before,
-    &::after {
-      position: absolute;
-      top: -40px;
-      left: 0;
-      display: block;
-      z-index: -1;
+  &::before,
+  &::after {
+    @include breakpoint(xs) {
+      left: auto;
+      right: 30px;
     }
-    &::before {
-      content: '';
-      @include transform(rotate(-30deg) scale(1));
-      width: 30px;
-      height: 120px;
-      background-color: #f5f0df;
-    }
-    &::after {
-      content: '';
-      @include transform(rotate(20deg) scale(1));
-      width: 10px;
-      height: 100px;
-      background-color: $color-bright;
-    }
+    position: absolute;
+    top: -40px;
+    left: 0;
+    display: block;
+    z-index: -1;
+  }
+  &::before {
+    content: '';
+    @include transform(rotate(-30deg) scale(1));
+    width: 30px;
+    height: 120px;
+    background-color: #f5f0df;
+  }
+  &::after {
+    content: '';
+    @include transform(rotate(20deg) scale(1));
+    width: 10px;
+    height: 100px;
+    background-color: $color-bright;
+  }
   .aside {
     @include breakpoint(xs) {
       margin-bottom: 0;

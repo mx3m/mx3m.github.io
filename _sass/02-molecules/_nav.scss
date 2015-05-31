@@ -9,11 +9,7 @@
     display: block;
     text-decoration: none;
     &.current {
-      &::after {
-        content: '✻';
-        margin-left: 4px;
-        color: $color-text-lighter;
-      }
+      text-decoration: line-through;
     }
   }
 }

@@ -11,7 +11,11 @@ id: things
     {% for thing in site.things %}
       <li class="posts-list-item">
         <h3 class="posts-list-item-title">
-          <a class="posts-list-item-link" href="{{ thing.hyperlink }}">{{ thing.title }}</a>
+          {% if things.hyperlink %}
+            <a class="posts-list-item-link" href="{{ thing.hyperlink }}">{{ thing.title }}</a>
+          {% else %}
+            {{ thing.title }}
+          {% endif %}
         </h3>
       </li>
     {% endfor %}
