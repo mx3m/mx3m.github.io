@@ -3,9 +3,13 @@
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  @include breakpoint(xs) {
+    padding-bottom: 1rem;
+  }
   &::before,
   &::after {
     @include breakpoint(xs) {
+      top: -70px;
       left: auto;
       right: 30px;
     }
@@ -20,7 +24,7 @@
     @include transform(rotate(-30deg) scale(1));
     width: 30px;
     height: 120px;
-    background-color: #f5f0df;
+    background-color: $color-background-darker;
   }
   &::after {
     content: '';

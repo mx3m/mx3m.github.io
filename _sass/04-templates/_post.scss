@@ -3,3 +3,10 @@
     max-width: 540px;
   }
 }
+
+.post-footer {
+  margin-top: 2rem;
+  padding: 1em;
+  border-left: 4px solid currentColor;
+  background-color: $color-bright;
+}

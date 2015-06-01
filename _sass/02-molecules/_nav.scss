@@ -4,6 +4,11 @@
   }
   &-list-item {
     margin: 0;
+    @include breakpoint(xs) {
+      margin-bottom: 5px;
+      padding: 6px 10px;
+      background-color: $color-background-darker;
+    }
   }
   &-link {
     display: block;
