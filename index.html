@@ -13,6 +13,7 @@ title: Journal
         <time class="posts-list-item-date">{{ post.date | date: "%b %-d, %Y" }}</time>
         <h3 class="posts-list-item-title">
           <a class="posts-list-item-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="posts-list-item-lang">({{ post.lang }})</span>
         </h3>
       </li>
     {% endfor %}

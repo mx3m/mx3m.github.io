@@ -2,6 +2,7 @@
 layout: post
 title:  "A few words is an infinity"
 date:   2015-05-25 14:00:00
+lang: en
 ---
 
 I'm going to give this a go.

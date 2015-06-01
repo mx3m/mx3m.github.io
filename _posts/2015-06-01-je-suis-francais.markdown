@@ -2,6 +2,7 @@
 layout: post
 title:  "Je suis français"
 date:   2015-06-01 14:00:00
+lang: fr
 ---
 
 J'ai tenté à maintes reprises d'écrire en anglais. Je lis beaucoup en anglais. En vrai, je travaille aussi en anglais. C'est une langue qui m'est étrangement familière.

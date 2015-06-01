@@ -16,6 +16,10 @@
     @extend %reset-heading;
     font-size: 1rem;
   }
+  &-item-lang {
+    font-weight: normal;
+    color: $color-text-lighter;
+  }
   &-item-date {
     display: inline-block;
     margin-bottom: 5px;
