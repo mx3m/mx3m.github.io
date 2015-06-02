@@ -16,6 +16,10 @@
   }
   &-item-link {
     @extend .posts-list-item-link;
+    &::after {
+      content: '☞';
+      padding-left: 5px;
+    }
   }
   &-item-type {
     display: block;
