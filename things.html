@@ -7,16 +7,21 @@ id: things
 {% include aside.html %}
 
 <article class="main">
-  <ul class="posts-list">
-    {% for thing in site.things %}
-      <li class="posts-list-item">
-        <h3 class="posts-list-item-title">
-          {% if things.hyperlink %}
-            <a class="posts-list-item-link" href="{{ thing.hyperlink }}">{{ thing.title }}</a>
+  <ul class="things-list">
+    {% for thing in site.things reversed %}
+      <li class="things-list-item">
+        <h3 class="things-list-item-title">
+          {% if thing.hyperlink %}
+            <a class="things-list-item-link" href="{{ thing.hyperlink }}">{{ thing.title }}</a>
+            <span class="things-list-item-date">{{ thing.year }}</span>
           {% else %}
             {{ thing.title }}
           {% endif %}
         </h3>
+        <article class="post-content">
+        <span class="things-list-item-type">{{ thing.type }}</span>
+          <p class="things-list-item-description">{{ thing.description }}</p>
+        </article>
       </li>
     {% endfor %}
   </ul>

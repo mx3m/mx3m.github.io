@@ -19,7 +19,7 @@ On the other hand, tech products have never been so good. I mean, look at Google
 
 People expect things to just work, no question asked. I'm like that. I bet you are too.
 
-Last friday, I had a series of event happening to me because of Sunrise: 
+Last friday, I had a series of event happening to me because of Sunrise:
 
 
 

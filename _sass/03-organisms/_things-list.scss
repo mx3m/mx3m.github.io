@@ -1,0 +1,35 @@
+.things-list {
+  @extend .posts-list;
+  &-item {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+  &-item-title {
+    @extend .posts-list-item-title;
+  }
+  &-item-link {
+    @extend .posts-list-item-link;
+  }
+  &-item-type {
+    display: block;
+    margin-top: 5px;
+    color: $color-text-lighter;
+  }
+  &-item-date {
+    @include breakpoint(sm) {
+      float: right;
+    }
+    color: $color-text-lighter;
+    font-weight: 300;
+  }
+  &-item-description {
+    margin: 10px 0;
+  }
+}
