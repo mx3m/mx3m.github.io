@@ -27,9 +27,7 @@
     color: $color-text-lighter;
   }
   &-item-date {
-    @include breakpoint(sm) {
-      float: right;
-    }
+    float: right;
     color: $color-text-lighter;
     font-weight: 300;
   }
