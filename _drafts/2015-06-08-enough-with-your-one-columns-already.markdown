@@ -9,7 +9,7 @@ Designing for the web in 2015 is designing for an undefined space. The web as a 
 
 We might have erected mobile-first as a dominant philosophy among design practices. Because mobile became or is becoming the first platform we listen (sic) to the web, we decided that mobile will therefore become the matrix of all our decisions. Like Desktop was the matrix for all our decisions before that.
 
-I feel that the responsive web is sometimes designed at the expense of richer looking layouts. One-column layouts became so widely adopted, by so many designers, at the same time, that I grew tired of them. Bold and big type surrounded by nothing but white space and stacks of meaningless divs. That's what these websites look like to me now. They bore me to death. Some of them I'm responsible for.
+I feel that the responsive web is sometimes designed at the expense of richer looking layouts. One-column layouts became so widely adopted, by so many designers, at the same time, that I grew tired of them. Bold and big type surrounded by nothing but white space and stacks of meaningless divs. That's what these websites look like to me now. Especially those I designed myself. They bore me to death.
 
 **Design is a game, and I don't think designers who avoid the ball are really playing it.**
 
