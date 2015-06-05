@@ -13,7 +13,7 @@ I had the chance to do some early start-ups mentoring sessions with [this guy](h
 
 It's fun. I quite like these moments because for once I get to do my job without any tool in front of me. It's just a conversation going on. When I'm lucky, I get to draw some lines on a whiteboard. That's cool too.
 
-Most of the start-ups we work with during those sessions have plenty of questions to ask us. They're usually quite happy to get an stranger's eye on what they do – get some design help and critique. It's free.
+Most of the start-ups we work with during those sessions have plenty of questions to ask us. They seem happy to get some strangers' eyes on what they do – get some design help and critique. Plus, it's free.
 
 I think I'm getting this sense that a lot of them are concerned about how their product is looking, whether the onboarding is doing, if X feature could be improved by pushing Y feature to a future sprint? All of that is great. They get the feedback they want, maybe improve their product over the next few days, maybe not.
 
@@ -37,7 +37,7 @@ Blue screen? Damn it, let's reboot. Browser freeze? Page's not loading? We'd bet
 
 Sometimes last week, in the bus that drives me from Shibuya Station to our offices in Nishi Azabu, I open Slack and notice that a conversation about a meeting happening then .......... I remember being invited to that meeting but somehow, that meeting was not anywhere in my Sunrise calendar to see. Not when I triple checked in that bus, not when I double checked in the morning, not when I checked at night before going to bed. That meeting simply disappeared from my.
 
-Not only do I suddenly disqualify for employee of the month but I also feel instantly terribly sorry for what happened. Everybody's calendar worked and all of them were at that meeting. And I wasn't. And "it's not my fault" sounds like bullshit anyways.
+Not only did I just suddenly disqualify for *employee of the month* but I also feel instantly terribly sorry for what happened. Everybody's calendar worked and all of them were at that meeting. And I wasn't. And "it's not my fault" sounds like bullshit anyways.
 
 Later that day, a meeting
 
