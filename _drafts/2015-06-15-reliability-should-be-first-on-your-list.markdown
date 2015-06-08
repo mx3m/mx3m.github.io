@@ -15,7 +15,7 @@ It's fun. I quite like these moments because for once I get to do my job without
 
 Most of the start-ups we work with during those sessions have plenty of questions for us. They seem happy to get some strangers' eyes on what they're doing – get some design help and critique. Plus, it's free.
 
-I'm getting this sense that a lot of them are concerned about how their product looks, whether the onboarding is working, if Feature X would be improved by pushing feature Y to a future sprint. All of this is great. They get the feedback they want, maybe improve their product over the next few days, maybe not.
+I'm getting this sense that a lot of them are concerned about how their product looks, whether the onboarding is working, if feature X would be improved by pushing feature Y to a future sprint. All of this is great. They get the feedback they want, maybe improve their product over the next few days, maybe not.
 
 What I don't sense is how deeply they value **reliability**. It doesn't come up. I know, [Chris](http://www.twitter.com/cpalmieri) and I are *just* designers so it's not like speaking to us about these things makes sense right away. Fair enough.
 
