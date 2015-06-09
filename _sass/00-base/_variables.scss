@@ -7,7 +7,7 @@ $color-link: darken($color-text, 20%);
 $color-link-hover: crimson;
 $color-link-visited: inherit;
 
-$color-background: #fdf9ea;
-$color-background-darker: #f5f0df;
+$color-background: #f9f6e4;
+$color-background-darker: darken($color-background, 5%);
 
-$color-bright: #f1f45f;
+$color-bright: #ffef33;
