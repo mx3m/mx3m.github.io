@@ -8,6 +8,16 @@ p {
   }
 }
 
+.dropcap {
+  float: left;
+  margin-right: 5px;
+  font-size: 5.25em;
+  line-height: 0.85em;
+  color: crimson;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+}
+
 .muted {
   color: $color-text-lighter;
 }

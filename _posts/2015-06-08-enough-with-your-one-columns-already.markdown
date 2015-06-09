@@ -5,7 +5,7 @@ date:     2015-06-08 14:00:00
 lang:     en
 ---
 
-Designing for the web in 2015 is designing for an undefined space. The web as a cross-platform language is spoken by an infinity of devices, past and future. And that's great because it makes the web even stronger and more universal than it's ever been. But it may have made us designers clueless and scared.
+<span class="dropcap">D</span>esigning for the web in 2015 is designing for an undefined space. The web as a cross-platform language is spoken by an infinity of devices, past and future. And that's great because it makes the web even stronger and more universal than it's ever been. But it may have made us designers clueless and scared.
 
 We have erected mobile-first as a dominant philosophy among design practices. We have made mobile the decision-making prism through which we make things for the web, replacing the desktop prism which came before it.
 

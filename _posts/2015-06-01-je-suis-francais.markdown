@@ -5,7 +5,7 @@ date:   2015-06-01 14:00:00
 lang: fr
 ---
 
-J'ai tenté à maintes reprises d'écrire en anglais. Je lis beaucoup en anglais. En vrai, je travaille aussi en anglais. C'est une langue qui m'est étrangement familière.
+<span class="dropcap">J</span>'ai tenté à maintes reprises d'écrire en anglais. Je lis beaucoup en anglais. En vrai, je travaille aussi en anglais. C'est une langue qui m'est étrangement familière.
 
 En tant que *designer*, ou *developer*, l'anglais est partout; même dans nos intitulés, sur nos cartes de visite. Il est dans les *tutorials* en ligne, il est dans nos languages de programmation, nos *apps*, nos *settings*. L'anglais est partout autour de moi et c'est devenu franchement impossible de l'éviter.
 
