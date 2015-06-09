@@ -11,13 +11,13 @@ That guy closed a 1.6 billion dollars contract with NASA and rarely is he ever d
 
 ### Invisibility cloaks
 
-Consultant, Account Manager, Asset Manager, Investment Banker, Financial Advisor, Apple Genius, Estate Agent... They're invisibility cloaks. We're running out of titles to hide our salesmen.
+Consultant, Account Manager, Asset Manager, Investment Banker, Financial Advisor, Apple Genius, Estate Agent... **They're invisibility cloaks**. We're running out of titles to hide our salesmen.
 
 And for what? When did *sales* as a word become dirty enough that we wanted to hide it?
 
+### Perverted culture
 
-
-
+Business and sales is a perverted culture.
 
 
 
