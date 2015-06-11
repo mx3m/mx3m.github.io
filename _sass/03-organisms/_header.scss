@@ -50,3 +50,19 @@
     color: $color-text-lighter;
   }
 }
+
+.shapes {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  z-index: -1;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: crimson;
+  @include breakpoint(xs) {
+    top: 0px;
+    right: 0;
+    left: auto;
+  }
+}

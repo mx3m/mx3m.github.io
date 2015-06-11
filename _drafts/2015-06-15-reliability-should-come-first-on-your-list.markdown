@@ -45,9 +45,11 @@ Not only did I just suddenly disqualify for *employee of the month* but I also f
 
 I believe that the ecosystem of apps we build around ourselves can define us as much as any other thing we share online. At the end of the day, we're responsible for all of that.
 
-Later that day, a meeting that was in my calendar had actually been canceled the previous day. That was the drop.
+Later that day, a meeting that was in my calendar had actually been canceled the previous day. That was it.
 
-Pissed as I was, I deleted Sunrise from my iPhone and iPad, unbookmarked it from Chrome and decided that I was done with it. I loved Sunrise but all it took was for it to fail me twice that day. It's unfair. Maybe it was the Google API failing. Maybe it was my iPhone's. Sunrise failed me in that it didn't even noticed that something was going wrong. So I blamed Sunrise. No excuse allowed. Not to me. Not to Sunrise.
+Pissed as I was, I deleted Sunrise from my iPhone and iPad, unbookmarked it from Chrome and decided that I was done with it. I loved Sunrise but all it took was for it to fail me twice that day. It's unfair. Maybe it was the Google API failing. Maybe it was my iPhone's. Sunrise failed me in that it didn't even notify me that something was wrong. So I blamed Sunrise.
+
+No excuse could have helped me with my colleagues. No excuse will help Sunrise.
 
 It's such a cruel world.
 
