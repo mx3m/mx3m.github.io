@@ -45,9 +45,9 @@ I believe that the ecosystem of apps we build around ourselves can define us as 
 
 Later that day, I asked for a confirmation about a meeting which was planned to occur a few hours later. That meeting had actually been canceled the previous day. And for some reason, Sunrise did not update.
 
-Pissed as I was, I deleted Sunrise from my iPhone and iPad, unbookmarked it from Chrome and decided that I was done with it. I loved Sunrise but all it took was for it to fail me twice that day. It's unfair. Maybe it was the Google API failing. Maybe it was my iPhone's. Sunrise failed me in that it didn't even notify me that something was wrong. So I blamed Sunrise.
+Pissed as I was, I deleted Sunrise from my iPhone and iPad, unbookmarked it from Chrome and decided that I was done with it. I loved Sunrise but all it took was for it to fail me twice that day. It's unfair. Maybe it was the Google API failing. Maybe it was my iPhone's. Who cares? It didn't even notify me that something went wrong.
 
-No excuse I could have given to my colleagues was good enough that day. In fine, the same applied to Sunrise. Which makes me think that, somehow, we're no longer fighters or survivors. We may as well be divas.
+I don't think we're fighters anymore. We expect a lot from our apps. We're consumers with high expectations. We're divas.
 
 
 
