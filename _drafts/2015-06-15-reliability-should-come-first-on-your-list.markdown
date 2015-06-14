@@ -23,9 +23,7 @@ But I'm a curious man. Where does reliability sit in their list of priorities?
 
 I value impeccable UX and I sure think that delighting users is a good way of keeping them around. But to get there, there's only one constant: **your app needs to work**.
 
-Every app has a single, central promise, and it needs to keep that promise.
-
-**Your app needs to be working at all times. If it fails to do that, alert your user and tell them what's wrong**.
+Not only does it need to work, but it needs to work at all times, and, should it fail, your users should know what went wrong.
 
 This should be on top of our priority list.
 
@@ -45,13 +43,13 @@ Not only did I just suddenly disqualify for *employee of the month* but I also f
 
 I believe that the ecosystem of apps we build around ourselves can define us as much as any other thing we share online. At the end of the day, we're responsible for all of that.
 
-Later that day, a meeting that was in my calendar had actually been canceled the previous day. That was it.
+Later that day, I ask for a confirmation about a meeting supposed to happen a few hours later. That meeting had actually been canceled the previous day. And for some reason, Sunrise didn't update itself.
 
 Pissed as I was, I deleted Sunrise from my iPhone and iPad, unbookmarked it from Chrome and decided that I was done with it. I loved Sunrise but all it took was for it to fail me twice that day. It's unfair. Maybe it was the Google API failing. Maybe it was my iPhone's. Sunrise failed me in that it didn't even notify me that something was wrong. So I blamed Sunrise.
 
 No excuse could have helped me with my colleagues. No excuse will help Sunrise.
 
-It's such a cruel world.
+We're no longer fighters or survivors. We're divas.
 
 
 
