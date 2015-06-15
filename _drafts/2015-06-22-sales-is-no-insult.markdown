@@ -35,9 +35,9 @@ For this fictional company, the sales team is an army of
 
 So, one-sentence recap. We made it so hard for old-fashioned salesmen to do their jobs normally that they had to blend in and wear other masks, play other roles.
 
-The line is now becoming so blurry that it's become harder to say who's who. Look around you, in your agency, in your start-up, wherever you might be working. Who's selling? Is it clear to everyone?
+The line is now becoming so blurry that it's become harder to say who's who. Look around you, in your agency, in your start-up, wherever you might be working. Who's selling? Maybe **you** know but is it clear to everyone else?
 
-[Peter Thiel](http://en.wikipedia.org/wiki/Peter_Thiel) says: "look around you, if you don't see a salesman, chances are: you are the salesman."
+[Peter Thiel](http://en.wikipedia.org/wiki/Peter_Thiel), again: "look around you, if you don't see a salesman, chances are: you are the salesman".
 
 
 
