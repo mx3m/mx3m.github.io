@@ -13,11 +13,31 @@ That guy closed a 1.6 billion dollars contract with NASA and rarely is he ever d
 
 Consultant, Account Manager, Asset Manager, Investment Banker, Financial Advisor, Apple Genius, Estate Agent... **They're invisibility cloaks**. We're running out of titles to hide our salesmen.
 
-And for what? When did *sales* as a word become dirty enough that we wanted to hide it?
+And for what? Rhetorical question if you may. When did *sales* as a word become dirty enough that we wanted to hide it?
 
-### Perverted culture
+As far as I can remember, sales has always been considered as part of "the old world". If I say "salesman", I know what you're picturing. A 40ish years old male with a suitcase. Slightly overweight. He likes liquor more than liquor likes him. His smile doesn't look so honest.
 
-Business and sales is a perverted culture.
+Or maybe you see something else. But that's not the point. The point is that you think this guy is dishonest. If you ever enter an interaction with him, he will have to proove you that he's being honest first. And that's either impossible (because he's not, or because you're stubborn) or just too difficult and time consuming.
+
+Our default beliefs play against salesmen. Hence, how convenienent would it be for them to play another role. The role of a guide. The role of an assistant. The role of a friend...
+
+The role of a friend **who can help you make a lot of money**.
+
+Sales masters know how to play those roles. But there are times where "hidden salesmen" can take a much more literal sense:
+
+![HBO / Silicon Valey - EndFrame offices](https://dl.dropboxusercontent.com/u/7539881/blog-img/silicon-valley-hbo-endrame-offices.jpg)
+
+In HBO's [Silicon Valley](http://www.hbo.com/silicon-valley), the [explanation of the scene].
+
+For this fictional company, the sales team is an army of 
+
+### We're all salesmen
+
+So, one-sentence recap. We made it so hard for old-fashioned salesmen to do their jobs normally that they had to blend in and wear other masks, play other roles.
+
+The line is now becoming so blurry that it's become harder to say who's who. Look around you, in your agency, in your start-up, wherever you might be working. Who's selling? Is it clear to everyone?
+
+[Peter Thiel](http://en.wikipedia.org/wiki/Peter_Thiel) says: "look around you, if you don't see a salesman, chances are: you are the salesman."
 
 
 
