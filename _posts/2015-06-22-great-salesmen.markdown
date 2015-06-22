@@ -15,7 +15,9 @@ Great salesmen wear different masks and different titles to gain our trust. Thin
 
 Peter Thiel, puts it this way: "look around you, if you don't see a salesman, chances are: you are the salesman".
 
-I've been thinking a lot about this last quote. Would I be okay with that – being the salesman? [Are great designer necessarily great salesmen?](http://muledesign.com/2014/09/13-ways-designers-screw-up-client-presentations). Food for thought.
+I've been thinking a lot about this last quote. Would I be okay with that – being the salesman? [Are great designer necessarily great salesmen](http://muledesign.com/2014/09/13-ways-designers-screw-up-client-presentations)?
+
+Food for thought.
 
 
 
