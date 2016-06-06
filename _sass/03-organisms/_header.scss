@@ -6,33 +6,6 @@
   @include breakpoint(xs) {
     padding-bottom: 1rem;
   }
-  &::before,
-  &::after {
-    @include breakpoint(xs) {
-      top: -70px;
-      left: auto;
-      right: 30px;
-    }
-    position: absolute;
-    top: -40px;
-    left: 0;
-    display: block;
-    z-index: -1;
-  }
-  &::before {
-    content: '';
-    @include transform(rotate(-30deg) scale(1));
-    width: 30px;
-    height: 120px;
-    background-color: $color-background-darker;
-  }
-  &::after {
-    content: '';
-    @include transform(rotate(20deg) scale(1));
-    width: 10px;
-    height: 100px;
-    background-color: $color-bright;
-  }
   .aside {
     @include breakpoint(xs) {
       margin-bottom: 0;
@@ -48,21 +21,5 @@
     }
     margin-bottom: 1em;
     color: $color-text-lighter;
-  }
-}
-
-.shapes {
-  position: absolute;
-  top: 30px;
-  left: 40px;
-  z-index: -2;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: crimson;
-  @include breakpoint(xs) {
-    top: 0px;
-    right: 0;
-    left: auto;
   }
 }

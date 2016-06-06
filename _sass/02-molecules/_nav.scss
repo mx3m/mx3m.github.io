@@ -7,7 +7,7 @@
     @include breakpoint(xs) {
       margin-bottom: 5px;
       padding: 6px 10px;
-      background-color: $color-background-darker;
+      background-color: rgba(0, 0, 0, 0.06);
     }
   }
   &-link {

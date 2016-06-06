@@ -1,0 +1,21 @@
+---
+layout: default
+title: Words
+id: words
+---
+
+{% include aside.html %}
+
+<article class="main">
+  <ul class="posts-list">
+    {% for post in site.posts %}
+      <li class="posts-list-item">
+        <time class="posts-list-item-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <h3 class="posts-list-item-title">
+          <a class="posts-list-item-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="posts-list-item-lang">({{ post.lang }})</span>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

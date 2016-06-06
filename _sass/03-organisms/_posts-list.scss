@@ -1,23 +1,15 @@
 .posts-list {
   @extend %reset-list;
   &-item {
-    margin: 2.2rem 0;
-    .things & {
-      padding: 2em 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-      &:first-child {
-        padding-top: 0;
-      }
-      &:last-child {
-        padding-bottom: 0;
-        border-bottom: none;
-      }
-    }
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     &:first-child {
-      margin-top: 0;
+      padding-top: 0;
     }
     &:last-child {
-      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
     }
   }
   &-item-link {
