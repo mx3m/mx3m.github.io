@@ -16,7 +16,5 @@ sass:
 
 # Custom collection
 collections:
-  things:
+  work:
     ouput: true
-  music:
-    output: true

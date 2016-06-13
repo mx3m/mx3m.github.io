@@ -3,6 +3,9 @@
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  @include breakpoint(sm) {
+    padding-top: 1rem;
+  }
   @include breakpoint(xs) {
     padding-bottom: 1rem;
   }
