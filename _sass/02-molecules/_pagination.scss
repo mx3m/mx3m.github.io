@@ -1,0 +1,25 @@
+.pagination {
+  position: relative;
+  width: 100%;
+  padding: 2em 0 0;
+  border-top: 3px solid $color-text;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 3em;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    background-color: transparent;
+    border-top: 3px solid $color-text;
+    border-right: 3px solid $color-text;
+    transform: rotate(45deg);
+  }
+  &-outer {
+    margin-top: 150px;
+  }
+  a {
+    text-decoration: none;
+  }
+}

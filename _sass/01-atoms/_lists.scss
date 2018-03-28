@@ -10,3 +10,7 @@ ol {
     }
   }
 }
+
+.list-reset {
+  @extend %reset-list;
+}

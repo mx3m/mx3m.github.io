@@ -1,23 +1,7 @@
 <header class="site-header">
-  <div class="shapes"></div>
-  <div class="flex-container">
-    <aside class="aside">
-      <h1 class="site-title"><a href="{{ site.baseurl }}/">Mathieu Mayer</a></h1>
-    </aside>
-    <div class="main">
-      <div class="intro">
-        <p>Front-end Designer</p>
-      </div>
-      <nav class="site-nav">
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a class="nav-link" href="{{ site.baseurl }}/" data-page-id="work">Work</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="{{ site.baseurl }}/about.html" data-page-id="about">About</a>
-          </li>
-        </ul>
-      </nav>
+  {% if page.id != 'home' %}
+    <div class="container">
+      <a class="hint" href="/">Back</a>
     </div>
-  </div>
+  {% endif %}
 </header>

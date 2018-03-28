@@ -1,4 +1,7 @@
 .site-footer {
-  margin-top: 4rem;
-  color: $color-text-lighter;
+  margin-top: 2em;
+  .container {
+    padding: 100px 0;
+    border-top: 3px solid $color-text;
+  }
 }

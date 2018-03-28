@@ -4,24 +4,21 @@ id: words
 post: true
 ---
 
-{% include aside.html %}
-
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-  <footer class="post-footer">
-    {% if page.lang == 'fr' %}
-      <p>Hein?! Donnez votre opinion via <a href="http://twitter.com/mx3m/">twitter</a>.</p>
-    {% else %}
-      <p>What?! Start a conversation with me on <a href="http://twitter.com/mx3m/">twitter</a>.</p>
-    {% endif %}
-  </footer>
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="pagination-outer">
+      {% if page.previous %}
+        <h2 class="section-title ts-strong ts-headline">Next Project</h2>
+        <div class="pagination">
+            <h4 class="fs-reset ts-headline ts-no-margin">
+              <a rel="next" href="{{ site.baseurl }}{{ page.previous.url }}" id="next">{{ page.previous.title }}</a>
+            </h4>
+            <p class="ts-half-margin ts-muted ts-measure">{{ page.previous.description }}</p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
 
 </div>

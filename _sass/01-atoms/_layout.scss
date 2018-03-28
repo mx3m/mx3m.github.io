@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+}
+
+.container {
+  width: 95%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-d2-m1 {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6em;
+  justify-content: space-between;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
