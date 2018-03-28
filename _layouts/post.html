@@ -4,21 +4,49 @@ id: words
 post: true
 ---
 
-<div class="post">
+<div class="post" data-transition="slideup">
 
   <div class="container">
-    <h1>{{ page.title }}</h1>
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-header-meta">
+        <div class="post-header-meta-block mission">
+          <h4 class="ts-half-margin">Mission</h4>
+          <p class="ts-half-margin">{{ page.runin }}</p>
+        </div>
+        <div class="post-header-meta-block info">
+          <h4 class="ts-half-margin">Type</h4>
+          <p class="ts-half-margin">{{ page.type }}</p>
+          <hr class="spacing">
+          <h4 class="ts-half-margin">Year</h4>
+          <p class="ts-half-margin">{{ page.year }}</p>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div class="container">
     <div class="pagination-outer">
       {% if page.previous %}
-        <h2 class="section-title ts-strong ts-headline">Next Project</h2>
+        <h2 class="section-title ts-strong ts-headline">Next Up</h2>
         <div class="pagination">
+          <div class="arrow-right">&#x02192;</div>
+          <a class="link-mask" href="{{ site.baseurl }}{{ page.previous.url }}"></a>
+          <div class="pagination-body">
             <h4 class="fs-reset ts-headline ts-no-margin">
               <a rel="next" href="{{ site.baseurl }}{{ page.previous.url }}" id="next">{{ page.previous.title }}</a>
             </h4>
             <p class="ts-half-margin ts-muted ts-measure">{{ page.previous.description }}</p>
+          </div>
         </div>
       {% endif %}
     </div>
+  </div>
+
+  <div class="container">
+    {% include footer.html %}
   </div>
 
 </div>

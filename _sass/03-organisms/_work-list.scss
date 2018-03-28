@@ -1,8 +1,8 @@
 $work-item-height: 500px;
 
 .work-list {
-  margin-top: 2em;
-  margin-bottom: 150px;
+  margin-top: 4em;
+  margin-bottom: 400px;
   &-item {
     position: relative;
     display: flex;
@@ -22,7 +22,7 @@ $work-item-height: 500px;
     }
     &-media {
       flex: 0 0 90%;
-      background-color: #fce6c0;
+      background-color: lightgrey;
     }
     &-title {
       margin-bottom: 4px;

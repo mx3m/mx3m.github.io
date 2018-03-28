@@ -6,12 +6,10 @@
   <body id="{{page.id}}">
 
     <div id="barba-wrapper">
-      <div class="wrapper barba-container">
+      <div class="barba-container">
+        <div class="site-background" style="background-color: {{ page.color }};" data-transition="fadein"></div>
         {% include header.html %}
-
         {{ content }}
-
-        {% include footer.html %}
       </div>
     </div>
 

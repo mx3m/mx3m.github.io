@@ -2,10 +2,10 @@
 title:            "MY ASICS Patterns Library"
 date:             2016-01-10 14:00:00
 year:             2016
+color:            "#e7e9ed"
 hyperlink:        http://exchange.asics.com/design
-type:             "Web / UI Design & Front-End"
-description:      "A one year project busy with building and maintaining the MY ASICS Design Guide, or in another words a collection of patterns and components now used to build and scale the MY ASICS ecosystem."
-class:            slideIn
+type:             "Web / Conception & Front-End"
+description:      "Building a custom components library for MyAsics Exchange."
 layout:           post
 ---
 

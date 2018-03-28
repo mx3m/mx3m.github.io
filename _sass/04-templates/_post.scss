@@ -1,20 +1,25 @@
-.post-content {
-  @include breakpoint(sm) {
-    max-width: 540px;
+.post {
+  backface-visibility: hidden;
+  &-header {
+    margin-bottom: 150px;
+    &-meta {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .mission {
+        flex: 0 0 60%;
+      }
+      .info {
+        flex: 0 0 30%;
+      }
+    }
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 2rem 0 1rem 0;
+  &-title {
+    margin-bottom: 2rem;
   }
-}
-
-.post-footer {
-  margin-top: 2rem;
-  padding: 0.75em 1em;
-  border-left: 4px solid currentColor;
-  background-color: $color-bright;
+  &-content {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }

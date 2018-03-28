@@ -21,3 +21,7 @@ sass:
 collections:
   work:
     output: true
+
+# Plugin
+plugins:
+- jekyll-autoprefixer

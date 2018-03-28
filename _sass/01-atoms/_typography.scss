@@ -17,6 +17,11 @@ hr {
   margin: 2rem 0;
   border: none;
   background-color: rgba(0, 0, 0, 0.06);
+  &.spacing {
+    background-color: transparent;
+    margin: 0;
+    height: 1rem;
+  }
 }
 
 a {
@@ -26,7 +31,8 @@ a {
   &:hover {
     color: $color-link-hover;
   }
-  &.hint {
+  &.hint,
+  .hint {
     border-bottom: 2px solid $color-text;
     &:hover {
     }
@@ -91,7 +97,7 @@ blockquote {
 }
 
 .ts-measure {
-  max-width: 620px;
+  max-width: 680px;
 }
 
 .ts-align {

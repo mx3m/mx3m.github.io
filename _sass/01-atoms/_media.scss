@@ -2,6 +2,11 @@ img {
   max-width: 100%;
 }
 
+.scroll-down {
+  display: inline-block;
+  animation: scrollDown 0.5s ease-in-out 3s infinite alternate;
+}
+
 .main-top-img {
   margin-bottom: 2rem;
 }
