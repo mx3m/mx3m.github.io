@@ -19,7 +19,51 @@
   }
   &-content {
     width: 95%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
+    &-screen {
+      width: 100%;
+      box-shadow: 0 2px 50px rgba(0, 0, 0, 0.12);
+      &:not(:last-of-type) {
+        margin-bottom: 3em;
+      }
+      &.iphone {
+        width: 375px;
+      }
+      &.radius-tab {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+    }
+    &-styleguide {
+      width: 100%;
+    }
+    &-grid {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &.column-1 {
+        flex: 0 0 100%;
+        width: 100%;
+      }
+      &.column-2 {
+        flex: 0 0 67%;
+        width: 65%;
+      }
+      &.column-3 {
+        flex: 0 0 30%;
+        width: 30%;
+      }
+      &.offset-1 {
+        margin-top: 100px;
+      }
+      &.offset-2 {
+        margin-top: 150px;
+      }
+    }
   }
 }

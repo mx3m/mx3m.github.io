@@ -4,7 +4,7 @@ id: home
 title: Mathieu Mayer - Designer
 ---
 
-<div class="container" data-transition="slidedown">
+<div class="container" data-transition="slideup">
   <div class="top-intro">
     <div class="ts-measure">
       <h1 class="ts-headline">Hello.</h1>
@@ -20,9 +20,16 @@ title: Mathieu Mayer - Designer
       {% for work in site.work reversed %}
         <div class="work-list-item grid-item {{ work.class }}">
           <a class="work-list-item-link" href="{{ work.url }}"></a>
-          <div class="work-list-item-media" style="background-color: {{ work.color }};"></div>
-          <h3 class="work-list-item-title fs-reset">{{ work.title }}</h3>
-          <small class="work-list-item-type">{{ work.type }}</small>
+          <div class="work-list-item-media">
+            <div class="work-list-item-background" style="background-color: {{ work.color }};"></div>
+            <div class="work-list-item-media-inner"">
+              <img class="work-list-item-thumbnail lazyload" src="{{ work.cover }}" />
+            </div>
+          </div>
+          <div class="work-list-item-text">
+            <h3 class="work-list-item-title fs-reset">{{ work.title }}</h3>
+            <small class="work-list-item-type">{{ work.type }}</small>
+          </div>
         </div>
       {% endfor %}
     </div>

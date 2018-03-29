@@ -12,18 +12,13 @@
 
 
 @keyframes slideUp {
-  0% { opacity: 0; transform: translateY(-120px); }
+  0% { opacity: 0; transform: translateY(-60px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slideDown {
-  0% { opacity: 0; transform: translateY(120px); }
+  0% { opacity: 0; transform: translateY(60px); }
   100% { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideRight {
-  0% { opacity: 0; transform: translateX(-400px); }
-  100% { opacity: 1; transform: translateX(0); }
 }
 
 [data-transition=fadein] {
@@ -42,9 +37,6 @@
   animation-name: slideDown;
 }
 
-[data-transition=slideright] {
-  animation-name: slideRight;
-}
 
 // invitation to scroll down
 

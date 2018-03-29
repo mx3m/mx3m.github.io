@@ -2,6 +2,7 @@
 title:            "Think with Google"
 date:             2014-12-20 14:00:00
 year:             2015
+class:            thinkwithgoogle
 color:            "#FFE0E2"
 hyperlink:        http://apac.thinkwithgoogle.com
 type:             "Web / UI Design & Front-End"

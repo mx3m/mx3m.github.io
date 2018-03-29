@@ -1,11 +1,11 @@
 ---
-title:            "MY ASICS Patterns Library"
+title:            "MY ASICS"
 date:             2016-01-10 14:00:00
 year:             2016
 color:            "#e7e9ed"
 hyperlink:        http://exchange.asics.com/design
-type:             "Web / Conception & Front-End"
-description:      "Building a custom components library for MyAsics Exchange."
+type:             "iOS / Interaction & UI Design"
+description:      "Redesign of MYASICS iPhone app that introduce core functionalities of the runner community MYASICS Exchange."
 layout:           post
 ---
 
