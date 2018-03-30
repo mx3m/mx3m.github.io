@@ -1,4 +1,7 @@
 .site-footer {
   padding: 100px 0;
   border-top: 3px solid $color-text;
+  &-note {
+    margin-top: 100px;
+  }
 }

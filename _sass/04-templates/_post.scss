@@ -44,6 +44,9 @@
     &-grid {
       display: flex;
       justify-content: space-between;
+      &:not(:first-of-type) {
+        margin-top: 100px;
+      }
     }
     &-column {
       display: flex;

@@ -8,7 +8,7 @@ color:            "#FCE6C0"
 hyperlink:        https://www.webcomponents.org/
 type:             "Web / UI Design"
 description:      "Gathering all Custom Elements in one central place."
-runin:            "I worked with designers and developers from Google and AQ to create this central directory of web components. With this platform, our goal was to make web components more comprehensive to the developers that weren't familiar with them while supporting and nurturing the community of developers that were already on board."
+runin:            "I worked with designers and developers from Google and AQ to create this central directory of web components. With this platform, our goal was to make web components more comprehensive to developers who weren't familiar with them while supporting and nurturing the community of developers that were already on board."
 layout:           post
 ---
 

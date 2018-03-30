@@ -2,7 +2,7 @@
 title:            "MY ASICS"
 date:             2016-01-10 14:00:00
 year:             2016
-color:            "#e7eef8"
+color:            "#E4E6EA"
 class:            myasics
 cover:            "/img/work/myasics/myasics-cover.svg"
 hyperlink:        http://exchange.asics.com/design

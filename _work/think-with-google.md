@@ -7,7 +7,8 @@ color:            "#FFE0E2"
 cover:            "/img/work/thinkwithgoogle/thinkwithgoogle-cover.svg"
 hyperlink:        http://apac.thinkwithgoogle.com
 type:             "Web / UI Design & Front-End"
-description:      "Design and dev of the South East Asian version of Think with Google."
+description:      "The ultimate marketing insights publication, by Google."
+runin:            "If there is one company in the world that knows their stuff about "
 layout:           post
 ---
 
