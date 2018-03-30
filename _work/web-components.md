@@ -8,7 +8,7 @@ color:            "#FCE6C0"
 hyperlink:        https://www.webcomponents.org/
 type:             "Web / UI Design"
 description:      "Gathering all Custom Elements in one central place."
-runin:            "During my time at AQ, I also got the chance to work on Tokyoite's beloved Tokyo Art Beat app. Whether you want to search for photography exhibitions in your neighbourhood or plan a design show weekend in the city, chances are you are going to need this app."
+runin:            "I worked with designers and developers from Google and AQ to create this central directory of web components. With this platform, our goal was to make web components more comprehensive to the developers that weren't familiar with them while supporting and nurturing the community of developers that were already on board."
 layout:           post
 ---
 

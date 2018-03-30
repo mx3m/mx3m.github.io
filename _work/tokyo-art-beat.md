@@ -2,8 +2,8 @@
 title:            "Tokyo Art Beat"
 date:             2016-10-10 14:00:00
 year:             2016
-class:            tokyoartbeat
 color:            "#F3E8EE"
+class:            tokyoartbeat
 cover:            "/img/work/tokyoartbeat/tab-cover.svg"
 hyperlink:        https://www.webcomponents.org/
 type:             "iOS / Interaction & UI Design"
