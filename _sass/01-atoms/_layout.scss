@@ -4,28 +4,48 @@
   box-sizing: border-box;
 }
 
+#barba-wrapper,
+.barba-container {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
 .wrapper {
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
   backface-visibility: hidden;
 }
 
 .grid {
-  display: grid;
+  @include breakpoint(sm) {
+    display: grid;
+  }
+  &-item {
+    @include breakpoint(xs) {
+      margin-bottom: 2.50em;
+    }
+  }
 }
 
 .grid-d2-m1 {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 6em;
   justify-content: space-between;
+  @include breakpoint(sm) {
+    grid-gap: 5vh;
+  }
+  @include breakpoint(md) {
+    grid-gap: 6em;
+  }
 }
 
 .flip {
-  transform: scaleX(-1);
+  @include breakpoint(md) {
+    transform: scaleX(-1);
+  }
 }
 
 .site-background {

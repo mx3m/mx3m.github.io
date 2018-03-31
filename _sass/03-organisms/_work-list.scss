@@ -1,36 +1,80 @@
-$work-item-height: 500px;
+$work-item-height-md: 500px;
+$work-item-height-sm: 400px;
+$work-item-height-xs: 400px;
 
 .work-list {
-  margin-top: 4em;
-  margin-bottom: 400px;
+  margin-top: 2em;
+  margin-bottom: 50px;
+  @include breakpoint(sm) {
+    margin-top: 3em;
+    margin-bottom: 300px;
+  }
+  @include breakpoint(md) {
+    margin-top: 4em;
+    margin-bottom: 400px;
+  }
   &-item {
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: $work-item-height;
+    @include breakpoint(xs) {
+      height: $work-item-height-xs;
+    }
+    @include breakpoint(sm) {
+      height: $work-item-height-sm;
+    }
+    @include breakpoint(md) {
+      height: $work-item-height-md;
+      margin-bottom: 0;
+    }
     &:nth-child(even) {
       position: relative;
-      top: $work-item-height/2;
+      @include breakpoint(sm) {
+        top: $work-item-height-sm/2;
+      }
+      @include breakpoint(md) {
+        top: $work-item-height-md/2;
+      }
     }
     &-link {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      height: 540px;
+      height: 100%;
       z-index: 3;
+      @include breakpoint(xs) {
+        height: $work-item-height-xs;
+      }
+      @include breakpoint(sm) {
+        height: $work-item-height-sm + 40px;
+      }
+      @include breakpoint(md) {
+        height: $work-item-height-md + 40px;
+      }
     }
     &-media {
       position: relative;
-      flex: 0 0 450px;
+      @include breakpoint(xs) {
+        flex: 1;
+      }
+      @include breakpoint(sm) {
+        flex: 0 0 $work-item-height-sm*0.80;
+      }
+      @include breakpoint(md) {
+        flex: 0 0 $work-item-height-md*0.90;
+      }
       &-inner {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 450px;
+        height: 100%;
         overflow: hidden;
+        @include breakpoint(md) {
+          height: 450px;
+        }
       }
     }
     &-text {
@@ -40,19 +84,36 @@ $work-item-height: 500px;
     &-thumbnail {
       position: relative;
       z-index: 2;
+      width: 50%;
+      max-width: 180px;
       top: 50%;
+      margin: auto;
       transform: translateY(-50%);
+      @include breakpoint(md) {
+        width: auto;
+        max-width: 300px;
+      }
     }
     &-background {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      height: 450px;
       transition: transform 0.3s ease, opacity 0.3s ease;
       transform-origin: top;
+      @include breakpoint(xs) {
+        height: 100%;
+      }
+      @include breakpoint(sm) {
+        height: 320px;
+      }
+      @include breakpoint(md) {
+        height: 450px;
+      }
       .work-list-item:hover & {
-        transform: scaleX(1.12) scaleY(1.25);
+        @include breakpoint(md) {
+          transform: scaleX(1.12) scaleY(1.25);
+        }
       }
     }
     &-title {

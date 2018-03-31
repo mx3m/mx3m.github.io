@@ -1,7 +1,13 @@
 .site-header {
   display: flex;
   align-items: center;
-  height: 25vh;
-  min-height: 120px;
-  max-height: 240px;
+  @include breakpoint(xs) {
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  @include breakpoint(sm) {
+    height: 25vh;
+    min-height: 120px;
+    max-height: 240px;
+  }
 }

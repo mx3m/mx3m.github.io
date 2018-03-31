@@ -9,6 +9,9 @@ body {
   font-weight: 500;
   line-height: $base-line-height;
   text-rendering: optimizeLegibility;
+  @include breakpoint(xs) {
+    font-size: 90%;
+  }
 }
 
 hr {
@@ -106,6 +109,13 @@ blockquote {
   }
   &-center {
     text-align: center;
+  }
+}
+
+.ts-mb-center {
+  text-align: center;
+  @include breakpoint(sm) {
+    text-align: left;
   }
 }
 

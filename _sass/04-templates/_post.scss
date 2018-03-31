@@ -1,16 +1,42 @@
 .post {
   backface-visibility: hidden;
   &-header {
-    margin-bottom: 150px;
+    @include breakpoint(xs) {
+      margin-bottom: 4em;
+    }
+    @include breakpoint(sm) {
+      margin-bottom: 100px;
+    }
+    @include breakpoint(md) {
+      margin-bottom: 150px;
+    }
     &-meta {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
+      @include breakpoint(sm) {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
       .mission {
         flex: 0 0 60%;
       }
       .info {
+        order: 2;
         flex: 0 0 30%;
+        & > div {
+          margin-bottom: 2em;
+          @include breakpoint(xs) {
+            &:first-child {
+              flex: 0 0 70%;
+            }
+            &:nth-child(2) {
+              flex: 0 0 20%;
+            }
+          }
+        }
+        @include breakpoint(xs) {
+          display: flex;
+          justify-content: space-between;
+        }
       }
     }
   }
@@ -18,16 +44,22 @@
     margin-bottom: 2rem;
   }
   &-content {
-    width: 95%;
+    width: 90%;
     max-width: 1280px;
     margin: 0 auto;
     &-screen {
       width: 100%;
       box-shadow: 0 2px 50px rgba(0, 0, 0, 0.12);
-      &:not(:last-of-type) {
+      @include breakpoint(xs) {
         margin-bottom: 3em;
       }
+      @include breakpoint(sm) {
+        &:not(:last-of-type) {
+          margin-bottom: 3em;
+        }
+      }
       &.iphone {
+        max-width: 100%;
         width: 375px;
       }
       &.radius-tab {
@@ -42,37 +74,46 @@
       width: 100%;
     }
     &-grid {
-      display: flex;
-      justify-content: space-between;
-      &:not(:first-of-type) {
-        margin-top: 100px;
+      @include breakpoint(sm) {
+        display: flex;
+        justify-content: space-between;
+        &:not(:first-of-type) {
+          margin-top: 100px;
+        }
       }
     }
     &-column {
       display: flex;
       flex-direction: column;
       align-items: center;
-      &.column-1 {
-        flex: 0 0 100%;
-        width: 100%;
+      @include breakpoint(xs) {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
-      &.column-5 {
-        flex: 0 0 48%;
-        width: 48%;
-      }
-      &.column-2 {
-        flex: 0 0 67%;
-        width: 65%;
-      }
-      &.column-3 {
-        flex: 0 0 30%;
-        width: 30%;
-      }
-      &.offset-1 {
-        margin-top: 100px;
-      }
-      &.offset-2 {
-        margin-top: 150px;
+      @include breakpoint(sm) {
+        &.column-1 {
+          flex: 0 0 100%;
+          width: 100%;
+        }
+        &.column-5 {
+          flex: 0 0 48%;
+          width: 48%;
+        }
+        &.column-2 {
+          flex: 0 0 67%;
+          width: 67%;
+        }
+        &.column-3 {
+          flex: 0 0 30%;
+          width: 30%;
+        }
+        &.offset-1 {
+          margin-top: 100px;
+        }
+        &.offset-2 {
+          margin-top: 150px;
+        }
       }
     }
   }

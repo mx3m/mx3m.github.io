@@ -11,8 +11,19 @@
     margin-top: -0.40em;
     font-size: 24px;
   }
+  &-body {
+    width: 80%;
+  }
   &-outer {
-    margin-top: 150px;
+    @include breakpoint(xs) {
+      margin-top: 4em;
+    }
+    @include breakpoint(sm) {
+      margin-top: 100px;
+    }
+    @include breakpoint(md) {
+      margin-top: 150px;
+    }
   }
   a {
     text-decoration: none;
