@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#barba-wrapper,
+.barba-container {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.wrapper {
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  backface-visibility: hidden;
+}
+
+.grid {
+  @include breakpoint(sm) {
+    display: grid;
+  }
+  &-item {
+    @include breakpoint(xs) {
+      margin-bottom: 2.50em;
+    }
+  }
+}
+
+.grid-d2-m1 {
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  @include breakpoint(sm) {
+    grid-gap: 5vh;
+  }
+  @include breakpoint(md) {
+    grid-gap: 6em;
+  }
+}
+
+.flip {
+  @include breakpoint(md) {
+    transform: scaleX(-1);
+  }
+}
+
+.site-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  backface-visibility: hidden;
+}

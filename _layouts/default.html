@@ -3,20 +3,14 @@
 
   {% include head.html %}
 
-  <body {% if page.id %}
-          data-current-page="{{ page.id }}" class="{{ page.id }}"
-        {% endif %}>
+  <body id="{{page.id}}">
 
-    <div class="wrapper">
-
-      {% include header.html %}
-
-      <div class="flex-container">
+    <div id="barba-wrapper">
+      <div class="barba-container">
+        <div class="site-background" style="background-color: {{ page.color }};" data-transition="fadein"></div>
+        {% include header.html %}
         {{ content }}
       </div>
-
-      {% include footer.html %}
-
     </div>
 
   </body>

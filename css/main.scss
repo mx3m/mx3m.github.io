@@ -2,63 +2,24 @@
 ---
 
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,700,400italic);
-@import "bourbon/bourbon";
 
 @import "00-base/normalize",
         "00-base/variables",
         "00-base/helpers",
+        "00-base/animations",
         "00-base/mixins";
 
-@import "01-atoms/syntax-highlighting",
-        "01-atoms/media",
-        "01-atoms/code",
-        "01-atoms/lists",
-        "01-atoms/headings",
-        "01-atoms/blockquotes",
-        "01-atoms/paragraphs";
+@import "01-atoms/media",
+        "01-atoms/layout",
+        "01-atoms/typography",
+        "01-atoms/lists";
 
-@import "02-molecules/nav.scss";
+@import "02-molecules/nav.scss",
+        "02-molecules/pagination.scss",
+        "02-molecules/top-intro.scss";
 
 @import "03-organisms/header",
         "03-organisms/footer",
-        "03-organisms/aside",
-        "03-organisms/posts-list",
         "03-organisms/work-list";
 
-@import "04-templates/post",
-        "04-templates/global";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: $base-font-size;
-}
-
-body {
-  font-size: 100%;
-  color: $color-text;
-  font-family: 'Arimo', sans-serif;
-  line-height: $base-line-height;
-  text-rendering: optimizeLegibility;
-  background-color: $color-background;
-}
-
-hr {
-  width: 100%;
-  height: 1px;
-  margin: 2rem 0;
-  border: none;
-  background-color: rgba(0, 0, 0, 0.06);
-}
-
-a {
-  color: $color-link;
-  &:hover {
-    color: $color-link-hover;
-  }
-}
+@import "04-templates/post";

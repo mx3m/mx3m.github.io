@@ -1,9 +1,15 @@
 $(document).ready(function() {
 
-  // Highlight Current Page In Main Navigation
-  var currentPage = $('body').data('current-page');
-  if (currentPage) {
-    $('a[data-page-id="' + currentPage + '"]').addClass('current');
+  // Reveal objects on scroll
+    window.sr = ScrollReveal({ mobile: false });
+    sr.reveal('.work-list-item', { duration: 1000, easing: 'ease-out', scale: 1, distance: '150px', viewFactor: 0.5, });
+
+
+  // Screen transitions
+  if ($(window).width() > 639) {
+    Barba.Pjax.start();
+
+    Barba.Prefetch.init();
   }
 
 });

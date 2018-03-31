@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="220px" viewBox="0 0 220 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy-8" transform="translate(-100.000000, -120.000000)">
+            <g id="Group-26" transform="translate(100.000000, 120.000000)">
+                <rect id="Rectangle-11" fill="#8BA6D3" x="0" y="0" width="220" height="220"></rect>
+                <polygon id="Rectangle-11" fill="#B4C4E0" points="0 0 220 0 220 60 165 60 110 140 55 160 0 130"></polygon>
+                <polygon id="Rectangle-11" fill="#E4E6EA" points="0 0 220 0 220 20 165 40 110 110 55 130 0 100"></polygon>
+                <path d="M220,80 L220,220 L0,220 L0,200 L55,180 L110,200 L165,110 L220,80 Z" id="Combined-Shape" fill="#557EC3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

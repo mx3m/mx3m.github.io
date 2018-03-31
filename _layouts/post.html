@@ -4,24 +4,52 @@ id: words
 post: true
 ---
 
-{% include aside.html %}
+<div class="post" data-transition="slidedown">
 
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
+  <div class="container">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-header-meta">
+        <div class="post-header-meta-block info">
+          <div class="type">
+            <h4 class="ts-half-margin">Type</h4>
+            <p class="ts-half-margin">{{ page.type }}</p>
+          </div>
+          <div class="year">
+            <h4 class="ts-half-margin">Year</h4>
+            <p class="ts-half-margin">{{ page.year }}</p>
+          </div>
+        </div>
+        <div class="post-header-meta-block mission">
+          <h4 class="ts-half-margin">Mission</h4>
+          <p class="ts-half-margin">{{ page.runin }}</p>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="post-content">
     {{ content }}
-  </article>
+  </div>
+  <div class="container">
+    <div class="pagination-outer">
+      {% if page.previous %}
+        <h2 class="section-title ts-strong ts-headline">Next Up</h2>
+        <div class="pagination">
+          <div class="arrow-right">&#x02192;</div>
+          <a class="link-mask" href="{{ site.baseurl }}{{ page.previous.url }}"></a>
+          <div class="pagination-body">
+            <h4 class="fs-reset ts-headline ts-no-margin">
+              <a class="hint" rel="next" href="{{ site.baseurl }}{{ page.previous.url }}" id="next">{{ page.previous.title }}</a>
+            </h4>
+            <p class="ts-half-margin ts-muted ts-measure">{{ page.previous.description }}</p>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
 
-  <footer class="post-footer">
-    {% if page.lang == 'fr' %}
-      <p>Hein?! Donnez votre opinion via <a href="http://twitter.com/mx3m/">twitter</a>.</p>
-    {% else %}
-      <p>What?! Start a conversation with me on <a href="http://twitter.com/mx3m/">twitter</a>.</p>
-    {% endif %}
-  </footer>
+  <div class="container">
+    {% include footer.html %}
+  </div>
 
 </div>

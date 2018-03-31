@@ -1,0 +1,16 @@
+.top-intro {
+  margin-bottom: 50px;
+  @include breakpoint(sm) {
+    margin-bottom: 100px;
+  }
+  @include breakpoint(sm) {
+    margin-bottom: 150px;
+  }
+
+  p {
+    @include breakpoint(sm) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}

@@ -1,5 +1,14 @@
 img {
   max-width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.scroll-down {
+  display: inline-block;
+  margin-right: 6px;
+  @include breakpoint(sm) {
+    animation: scrollDown 0.5s ease-in-out 3s infinite alternate;
+  }
 }
 
 .main-top-img {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="214px" height="249px" viewBox="0 0 214 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="91 0 107 26.3333333 107 202 91 202"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-343.000000, -2701.000000)">
+            <g id="Group-2-Copy-6" transform="translate(240.000000, 2603.000000)">
+                <g id="Group-25" transform="translate(103.000000, 114.000000)">
+                    <polygon id="Triangle-2" fill="#E8CD87" opacity="0.3" points="99 13 214 202.277108 99 202.277108"></polygon>
+                    <polygon id="Triangle-2" fill="#E8CD87" opacity="0.6" points="85 93 85 232.277108 0 232.277108"></polygon>
+                    <g id="Rectangle-11-Copy">
+                        <use fill="#EDCC76" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#F0ECE1" stroke-width="6" d="M88,-10.7149481 L110,25.4933853 L110,205 L88,205 L88,-10.7149481 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

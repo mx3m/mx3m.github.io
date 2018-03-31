@@ -1,28 +1,13 @@
 .site-header {
-  position: relative;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  @include breakpoint(sm) {
-    padding-top: 1rem;
-  }
+  display: flex;
+  align-items: center;
   @include breakpoint(xs) {
-    padding-bottom: 1rem;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
   }
-  .aside {
-    @include breakpoint(xs) {
-      margin-bottom: 0;
-    }
-  }
-  .main {
-    @extend .flex-container;
-  }
-  .intro {
-    @include breakpoint(sm) {
-      margin-left: auto;
-      @include order(2);
-    }
-    margin-bottom: 1em;
-    color: $color-text-lighter;
+  @include breakpoint(sm) {
+    height: 25vh;
+    min-height: 120px;
+    max-height: 240px;
   }
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="245px" viewBox="0 0 221 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="181 7.10542736e-15 221 69.2820323 181 138.564065 101 138.564065 61 69.2820323 101 0"></polygon>
+        <polygon id="path-2" points="150 54 190 123.282032 150 192.564065 70 192.564065 30 123.282032 70 54"></polygon>
+        <polygon id="path-3" points="120 106 160 175.282032 120 244.564065 40 244.564065 0 175.282032 40 106"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-880.000000, -1030.000000)">
+            <g id="Group-2-Copy" transform="translate(780.000000, 922.000000)">
+                <g id="Group-10" transform="translate(100.000000, 108.000000)">
+                    <g id="Polygon-Copy-2" opacity="0.371263587">
+                        <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#ECC481" stroke-width="20" d="M175.226497,10 L106.773503,10 L72.5470054,69.2820323 L106.773503,128.564065 L175.226497,128.564065 L209.452995,69.2820323 L175.226497,10 Z"></path>
+                    </g>
+                    <g id="Polygon-Copy">
+                        <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#F1CE94" stroke-width="20" d="M144.226497,64 L75.7735027,64 L41.5470054,123.282032 L75.7735027,182.564065 L144.226497,182.564065 L178.452995,123.282032 L144.226497,64 Z"></path>
+                    </g>
+                    <g id="Polygon">
+                        <use fill-opacity="0" fill="#FCE6C0" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#ECC481" stroke-width="20" d="M114.226497,116 L45.7735027,116 L11.5470054,175.282032 L45.7735027,234.564065 L114.226497,234.564065 L148.452995,175.282032 L114.226497,116 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
