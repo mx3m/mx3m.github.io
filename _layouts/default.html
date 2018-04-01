@@ -9,7 +9,9 @@
       <div class="barba-container">
         <div class="site-background" style="background-color: {{ page.color }};" data-transition="fadein"></div>
         {% include header.html %}
-        {{ content }}
+        <main data-transition="slidedown">
+          {{ content }}
+        </main>
       </div>
     </div>
 
