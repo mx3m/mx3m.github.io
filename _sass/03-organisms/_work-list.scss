@@ -5,6 +5,7 @@ $work-item-height-xs: 400px;
 .work-list {
   margin-top: 2em;
   margin-bottom: 50px;
+  animation: fadeIn 1s ease;
   @include breakpoint(sm) {
     margin-top: 3em;
     margin-bottom: 300px;
