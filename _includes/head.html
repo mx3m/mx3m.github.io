@@ -6,7 +6,7 @@
   <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <meta property="og:title" content="{% endif %}{{ site.title }} - {% if page.title %}{{ page.title }}">
+  <meta property="og:title" content="{{ site.title }} - {% if page.title %}{{ page.title }}{% endif %}">
   <meta property="og:image" content="{{ "/img/opengraph.jpg" | relative_url }}" >
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl }}">
