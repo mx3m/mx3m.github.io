@@ -112,7 +112,7 @@ $work-item-height-xs: 400px;
         height: 450px;
       }
       .work-list-item:hover & {
-        @include breakpoint(md) {
+        @include breakpoint(sm) {
           transform: scaleX(1.12) scaleY(1.25);
         }
       }
