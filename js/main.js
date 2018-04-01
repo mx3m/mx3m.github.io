@@ -6,9 +6,9 @@ $(document).ready(function() {
 
 
   // Screen transitions
-  if ($(window).width() > 639) {
     Barba.Pjax.start();
 
+  if ($(window).width() > 639) {
     Barba.Prefetch.init();
   }
 
