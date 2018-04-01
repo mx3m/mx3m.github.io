@@ -41,9 +41,7 @@
 }
 
 .flip {
-  @include breakpoint(md) {
-    transform: scaleX(-1);
-  }
+  transform: scaleX(-1);
 }
 
 .site-background {
