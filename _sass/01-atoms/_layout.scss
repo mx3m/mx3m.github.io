@@ -8,9 +8,7 @@
 .barba-container {
   backface-visibility: hidden;
   transform: translateZ(0);
-}
-
-.wrapper {
+  will-change: transform, opacity;
 }
 
 .container {
@@ -57,4 +55,5 @@
   z-index: -1;
   backface-visibility: hidden;
   transform: translateZ(0);
+  will-change: transform, opacity;
 }

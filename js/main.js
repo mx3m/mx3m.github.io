@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // Reveal objects on scroll
     window.sr = ScrollReveal({ mobile: false });
-    sr.reveal('.work-list-item', { duration: 1000, easing: 'ease-out', scale: 1, distance: '150px', viewFactor: 0.5, });
+    sr.reveal('.work-list-item', { duration: 1000, easing: 'ease-out', scale: 0.9, distance: '100px', viewFactor: 0.5, });
 
 
   // Screen transitions
