@@ -4,6 +4,9 @@
     flex-direction: column;
     height: 70vh;
   }
+  h1 {
+    font-size: 50px;
+  }
   p {
     @include breakpoint(sm) {
       font-size: 20px;

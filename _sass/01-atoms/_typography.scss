@@ -132,12 +132,6 @@ blockquote {
   margin-top: 0;
 }
 
-.page-title {
-  // @extend %reset-heading;
-  color: $color-text-lighter;
-  font-weight: normal;
-}
-
 .post-title {
   @extend %reset-heading;
   margin-bottom: 2rem;
