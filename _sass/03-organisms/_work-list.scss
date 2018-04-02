@@ -7,11 +7,9 @@ $work-item-height-xs: 400px;
   margin-bottom: 50px;
   animation: fadeIn 1s ease;
   @include breakpoint(sm) {
-    margin-top: 3em;
     margin-bottom: 300px;
   }
   @include breakpoint(md) {
-    margin-top: 4em;
     margin-bottom: 400px;
   }
   &-item {
@@ -24,6 +22,7 @@ $work-item-height-xs: 400px;
     }
     @include breakpoint(sm) {
       height: $work-item-height-sm;
+      margin-bottom: 2em;
     }
     @include breakpoint(md) {
       height: $work-item-height-md;
@@ -118,10 +117,11 @@ $work-item-height-xs: 400px;
       }
     }
     &-title {
-      margin-bottom: 4px;
+      margin-bottom: 0;
     }
     &-type {
       font-weight: normal;
+      line-height: 1.2;
       color: $color-text-lighter;
     }
   }

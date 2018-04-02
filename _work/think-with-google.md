@@ -7,7 +7,7 @@ color:            "#FFE0E2"
 cover:            "/img/work/thinkwithgoogle/thinkwithgoogle-cover.svg"
 hyperlink:        http://apac.thinkwithgoogle.com
 type:             "Web / UI Design & Front-End"
-description:      "The ultimate marketing insights publication, by Google."
+description:      "Google's ultimate marketing insights publication"
 runin:            "In 2013, Google decided it was time to share their incredible research and data analysis work with the rest of the online marketers. TwG has been a trustful source of consumer trends and market insights since then. <br/><br/>Shortly after a successful launch in the US, I worked with <a class='hint' href='http://www.aqworks.com'>AQ</a> and Google on creating a separate platform for the Asian Pacific markets. The interface needed to work for several asian languages such as Korean, Thai or Japanese as well as English."
 layout:           post
 ---

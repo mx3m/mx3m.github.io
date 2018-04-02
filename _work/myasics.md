@@ -7,7 +7,7 @@ class:            myasics
 cover:            "/img/work/myasics/myasics-cover.svg"
 hyperlink:        http://exchange.asics.com/design
 type:             "iOS / Interaction & UI Design"
-description:      "Exploratory redesign of the MYASICS iPhone app."
+description:      "Redesign of a smart run training app for the iPhone"
 runin:            "Shortly after launching <a class='hint' href='/work/exchange.html'>Exchange</a>, Asics' first social community platform, I worked on redesigning the MYASICS iOS app.<br/><br/>With this new design, the goal was to deliver a more social experience to the MY ASICS runners' training program. In addition to all the customised coaching features, we added community tips and more in-depth personal profile options tapping into the <strong>Exchange</strong> API.<br/><br/>Screenshots below are approved high fidelity mock-ups. This design project went to completion but was never implemented and launched on the market due to <a class='hint' href='https://www.theverge.com/2016/2/12/10977664/asics-runkeeper-acquisition'>Asics acquiring Runkeeper</a>."
 layout:           post
 ---

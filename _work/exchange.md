@@ -7,7 +7,7 @@ class:            exchange
 cover:            "/img/work/exchange/exchange-cover.svg"
 hyperlink:        http://exchange.asics.com
 type:             "Web / Interaction & Front-End Design"
-description:      "A community for runners to capture and share running tips with each others."
+description:      "A social app to share running tips"
 runin:            "Running can be a social experience at times but for a lot of people, it is a solitary one. <a class='hint' href='http://exchange.asics.com'>Exchange</a> is a tentative to gather and share publicly thousands of runners' knowledge across many different topics from pre-marathon nutrition tips to breathing techniques during daily jogs.<br/><br/>Exchange was created and maintained at <a class='hint' href='http://www.aqworks.com'>AQ</a> between 2015 and 2016. I designed and developed the User Interface as well as created a <a class='hint' href='http://exchange.asics.com/design'>living design system</a>."
 layout:           post
 ---

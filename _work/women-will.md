@@ -6,7 +6,7 @@ class:            womenwill
 color:            "#DCECDB"
 cover:            "/img/work/womenwill/womenwill-cover.svg"
 type:             "Web / Visualisation Design"
-description:      "Exploratory data visualisation work for Google Brand Studio."
+description:      "Exploratory data visualisation work for Google"
 runin:            "Women Will is a Google initiative that develop and support programs to help women build skills, get inspired, and connect with each other.<br/><br/>In its first year, the initiative commissioned a market research to find out how women all across South East Asia used the internet and the devices to access it. I did exploratory data visualisation work for Google Brand Studio to present these findings."
 layout:           post
 ---

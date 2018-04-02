@@ -9,7 +9,7 @@
   <meta property="og:title" content="{{ site.title }} - {% if page.title %}{{ page.title }}{% endif %}">
   <meta property="og:image" content="{{ "/img/opengraph.jpg" | relative_url }}" >
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl }}">
+  <meta property="og:url" content="{{ page.url | preprend: site.url }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
