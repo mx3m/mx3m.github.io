@@ -5,7 +5,7 @@ html {
 body {
   font-size: 100%;
   color: $color-text;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', Roboto, sans-serif;
   font-weight: 500;
   line-height: $base-line-height;
   text-rendering: optimizeLegibility;
@@ -29,7 +29,7 @@ hr {
 
 a {
   color: $color-text;
-  font-weight: 600;
+  font-weight: bolder;
   text-decoration: none;
   &:hover {
     color: $color-link-hover;
