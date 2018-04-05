@@ -1,7 +1,4 @@
 .post {
-  backface-visibility: hidden;
-  transform: translateZ(0);
-  will-change: transform, opacity;
   &-header {
     @include breakpoint(xs) {
       margin-bottom: 4em;
@@ -44,6 +41,9 @@
   }
   &-title {
     margin-bottom: 2rem;
+    @include breakpoint(sm) {
+      font-size: 50px;
+    }
   }
   &-content {
     width: 90%;
