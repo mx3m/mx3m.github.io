@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+  // Screen transitions
+  Barba.Pjax.start();
+
+  if ($(window).width() > 639) {
+    Barba.Prefetch.init();
+  }
+
   // Reveal objects on scroll
   window.sr = ScrollReveal({ mobile: false });
   sr.reveal('.work-list-item', {
@@ -9,15 +16,5 @@ $(document).ready(function() {
     distance: '100px',
     viewFactor: 0.5,
   });
-
-
-  // Screen transitions
-  Barba.Pjax.start();
-
-  Barba.transitionLength = 500;
-
-  if ($(window).width() > 639) {
-    Barba.Prefetch.init();
-  }
 
 });
