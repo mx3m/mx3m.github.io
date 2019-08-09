@@ -12,9 +12,9 @@ $(document).ready(function() {
   sr.reveal('.work-list-item', {
     duration: 500,
     easing: 'ease-out',
-    scale: 0.9,
-    distance: '100px',
-    viewFactor: 0.5,
+    scale: 0.85,
+    distance: '150px',
+    viewFactor: 0.20,
   });
 
 });

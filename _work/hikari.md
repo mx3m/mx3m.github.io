@@ -2,7 +2,7 @@
 title:            "Hikari"
 date:             2014-02-30 14:00:00
 year:             2014
-color:            "#F0ECE1"
+color:            "#F2EDE2"
 class:            hikari
 cover:            "/img/work/hikari/hikari-cover.svg"
 hyperlink:        https://github.com/mx3m/hikari-for-Jekyll

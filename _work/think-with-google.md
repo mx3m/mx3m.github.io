@@ -1,9 +1,9 @@
 ---
 title:            "Think with Google"
-date:             2015-10-20 14:00:00
+date:             2014-10-20 14:00:00
 year:             2014-2017
 class:            thinkwithgoogle
-color:            "#FFE0E2"
+color:            "#EAF0FA"
 cover:            "/img/work/thinkwithgoogle/thinkwithgoogle-cover.svg"
 hyperlink:        http://apac.thinkwithgoogle.com
 type:             "Web / UI Design & Front-End"

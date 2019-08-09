@@ -9,9 +9,10 @@
         "00-base/animations",
         "00-base/mixins";
 
-@import "01-atoms/media",
+@import "01-atoms/typography",
+        "01-atoms/media",
         "01-atoms/layout",
-        "01-atoms/typography",
+        "01-atoms/buttons",
         "01-atoms/lists";
 
 @import "02-molecules/nav.scss",

@@ -1,13 +1,10 @@
 .post {
   &-header {
     @include breakpoint(xs) {
-      margin-bottom: 4em;
+      margin-bottom: 5vh;
     }
     @include breakpoint(sm) {
       margin-bottom: 100px;
-    }
-    @include breakpoint(md) {
-      margin-bottom: 150px;
     }
     &-meta {
       @include breakpoint(sm) {
@@ -68,8 +65,9 @@
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
       }
+      &.radius,
       &.radius-mya {
-        border-radius: 10px;
+        border-radius: 16px;
       }
     }
     &-styleguide {
@@ -84,10 +82,11 @@
         }
       }
     }
+    &-images-wrap {
+      text-align: center;
+    }
     &-column {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      text-align: center;
       @include breakpoint(xs) {
         max-width: 100%;
         margin-left: auto;

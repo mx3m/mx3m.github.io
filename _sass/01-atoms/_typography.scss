@@ -39,6 +39,12 @@ a {
     border-bottom: 2px solid $color-text;
     &:hover {
     }
+    &.accent {
+      color: $color-link-hover;
+    }
+    &.accent-border {
+      border-color: $color-link-hover;
+    }
   }
 }
 
@@ -65,8 +71,24 @@ blockquote {
   }
 }
 
+.f2 {
+  font-size: 22px;
+  line-height: 1.45;
+  @include breakpoint(sm) {
+    font-size: 24px;
+    line-height: 1.45;
+  }
+  @include breakpoint(md) {
+    font-size: 26px;
+  }
+}
+
 .f3 {
   font-size: 22px;
+}
+
+.f4 {
+  font-size: 16px;
 }
 
 .fs-reset {
@@ -130,6 +152,33 @@ blockquote {
 .section-title {
   font-size: 1.2em;
   margin-top: 0;
+}
+
+.side-title {
+  color: $color-text-lighter;
+  font-size: 18px;
+  font-weight: 500;
+  @supports (writing-mode: vertical-rl) {
+    @include breakpoint(lg) {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-right: 10vh;
+      transform: translateX(-200%);
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      &::before {
+        content: '';
+        position: absolute;
+        right: 2.5vh;
+        top: 0;
+        display: block;
+        width: 5vh;
+        height: 2px;
+        background-color: currentColor;
+      }
+    }
+  }
 }
 
 .post-title {

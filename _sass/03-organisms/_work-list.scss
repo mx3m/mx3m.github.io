@@ -6,11 +6,8 @@ $work-item-height-xs: 400px;
   margin-top: 2em;
   margin-bottom: 50px;
   animation: fadeIn 1s ease;
-  @include breakpoint(sm) {
-    margin-bottom: 300px;
-  }
   @include breakpoint(md) {
-    margin-bottom: 400px;
+    margin-bottom: 150px;
   }
   &-item {
     position: relative;
@@ -30,9 +27,6 @@ $work-item-height-xs: 400px;
     }
     &:nth-child(even) {
       position: relative;
-      @include breakpoint(sm) {
-        top: $work-item-height-sm/2;
-      }
       @include breakpoint(md) {
         top: $work-item-height-md/2;
       }

@@ -2,7 +2,7 @@ $base-font-size: 18px;
 $base-line-height: 26px;
 
 $color-text: #111;
-$color-text-lighter: rgba(0, 0, 0, 0.65);
+$color-text-lighter: rgba($color-text, 0.50);
 $color-link: darken($color-text, 20%);
 $color-link-hover: #042cff;
 $color-link-visited: inherit;

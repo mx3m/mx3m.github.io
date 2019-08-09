@@ -16,6 +16,16 @@
   max-width: 960px;
   margin: 0 auto;
   backface-visibility: hidden;
+  &-flex {
+    display: flex;
+    .push-right {
+      margin-left: auto;
+      text-align: right;
+    }
+    &.align-top {
+      align-items: flex-start;
+    }
+  }
 }
 
 .grid {
@@ -40,10 +50,6 @@
   }
 }
 
-.flip {
-  transform: scaleX(-1);
-  text-align: right;
-}
 
 .site-background {
   position: fixed;

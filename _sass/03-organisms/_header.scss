@@ -8,5 +8,6 @@
   @include breakpoint(sm) {
     height: 25vh;
     min-height: 100px;
+    max-height: 300px;
   }
 }
