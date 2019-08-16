@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   padding: 6px 14px;
-  background-color: $color-link-hover;
+  background-color: $color-text;
   color: white;
   border: 2px solid transparent;
   border-radius: 50px;
@@ -10,6 +10,6 @@
   text-decoration: none;
   &:hover {
     color: white;
-    background-color: darken($color-link-hover, 5%);
+    background-color: $color-link-hover;
   }
 }
