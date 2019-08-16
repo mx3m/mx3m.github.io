@@ -63,9 +63,10 @@ small {
 }
 
 blockquote {
-  padding: 0;
+  padding: 0 0 0 1.25em;
   margin: 0;
-  text-align: justify;
+  border-left: 3px solid currentColor;
+  font-style: italic;
   & + .author {
     margin-top: 2em;
   }

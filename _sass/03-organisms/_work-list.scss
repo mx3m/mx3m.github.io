@@ -7,7 +7,7 @@ $work-item-height-xs: 400px;
   margin-bottom: 50px;
   animation: fadeIn 1s ease;
   @include breakpoint(md) {
-    margin-bottom: 150px;
+    margin-bottom: $work-item-height-sm;
   }
   &-item {
     position: relative;
